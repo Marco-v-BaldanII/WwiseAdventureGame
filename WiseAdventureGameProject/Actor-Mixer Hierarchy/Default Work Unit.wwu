@@ -98,7 +98,7 @@
 						</Folder>
 					</ChildrenList>
 				</Folder>
-				<SwitchContainer Name="PuPlayer_Footstep" ID="{9A496FE5-E88F-48AD-B4E7-85DA30AA6C20}" ShortID="758762749">
+				<SwitchContainer Name="Player_Footstep" ID="{9A496FE5-E88F-48AD-B4E7-85DA30AA6C20}" ShortID="758762749">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0553CE12-6F1D-4F8B-99B3-381D30F298BC}"/>
@@ -2444,29 +2444,6 @@
 						</GroupingList>
 					</GroupingInfo>
 				</SwitchContainer>
-				<Sound Name="Player_Footstep" ID="{979B582C-8EAF-473B-A5A7-05E2F6589995}" ShortID="80736900">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0553CE12-6F1D-4F8B-99B3-381D30F298BC}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D6AF423-2987-4F26-8C03-9353801E74B9}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="OOT_Navi_WatchOut1" ID="{A0CEBE70-E02D-4EA6-95EB-E755019B9B19}">
-							<Language>SFX</Language>
-							<AudioFile>OOT_Navi_WatchOut1.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="409463453"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ObjectLists/>
-					<ActiveSourceList>
-						<ActiveSource Name="OOT_Navi_WatchOut1" ID="{A0CEBE70-E02D-4EA6-95EB-E755019B9B19}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
