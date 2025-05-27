@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{AF0D20C8-2112-4F11-BD9E-0D6784296900}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{AF0D20C8-2112-4F11-BD9E-0D6784296900}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Player_Foorstep" ID="{C331D854-AD15-4ED3-9622-5CC793E97FB8}" ShortID="109891836">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0553CE12-6F1D-4F8B-99B3-381D30F298BC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D6AF423-2987-4F26-8C03-9353801E74B9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="OOT_Navi_Listen2" ID="{B1042673-D0FD-4DFC-85B2-2007812A39FF}">
+							<Language>SFX</Language>
+							<AudioFile>OOT_Navi_Listen2.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1062550428"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="OOT_Navi_Listen2" ID="{B1042673-D0FD-4DFC-85B2-2007812A39FF}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B3D1A810-BC0B-491B-8242-DC900F295148}" SchemaVersion="103">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{B3D1A810-BC0B-491B-8242-DC900F295148}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="General" ID="{B0A5637B-BF61-4ADD-934D-3B2295C684E0}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>
