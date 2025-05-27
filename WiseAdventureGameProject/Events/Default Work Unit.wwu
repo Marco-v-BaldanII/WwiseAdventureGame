@@ -14,6 +14,23 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Folder Name="sfx" ID="{EE002EDF-C9F0-48DD-B398-5490015650B1}" ShortID="87141221">
+					<ChildrenList>
+						<Folder Name="creatures" ID="{EF0ABF01-B862-403F-81F5-8C80D6963CEE}" ShortID="142649348">
+							<ChildrenList>
+								<Event Name="Enemy_EvilSpitPlant_BulletImpact" ID="{A2E3B613-ECDC-48A7-9C9F-F5A0053245FF}"/>
+								<Event Name="Enemy_EvilSpitPlant_Bullet_NoImpact" ID="{7170466C-D247-4D34-B287-3544669EB812}"/>
+								<Event Name="Enemy_EvilSpitPlant_Charge" ID="{091CDF20-D05E-4040-9BBA-A02DD6773D65}"/>
+								<Event Name="Enemy_EvilSpitPlant_Death" ID="{BA5F5E1F-E47B-4096-8D1E-C45EDFB398E5}"/>
+								<Event Name="Enemy_EvilSpitPlant_Death_Headfall" ID="{E37E7CE8-92F2-47D9-B322-730ADFFF0666}"/>
+								<Event Name="Enemy_EvilSpitPlant_Death_Hurt" ID="{CF2A39DF-B926-4C27-B992-4994C343979E}"/>
+								<Event Name="Enemy_EvilSpitPlant_Death_ShootBullet" ID="{2FD699D2-8095-4922-8D25-57323D518ABD}"/>
+								<Event Name="Enemy_EvilSpitPlant_Death_ShootLoop_Play" ID="{41B99023-9FF0-42BC-A6FC-0E0C327DBEC6}"/>
+								<Event Name="Enemy_EvilSpitPlant_Death_ShootLoop_Stop" ID="{2D500F73-C4AB-481C-91EC-385D8386AFCA}"/>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

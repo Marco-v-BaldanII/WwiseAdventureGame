@@ -4,6 +4,8 @@
 		<WorkUnit Name="Default Work Unit" ID="{B3D1A810-BC0B-491B-8242-DC900F295148}" PersistMode="Standalone">
 			<ChildrenList>
 				<WorkUnit Name="General" ID="{B0A5637B-BF61-4ADD-934D-3B2295C684E0}" PersistMode="Reference"/>
+				<WorkUnit Name="Context" ID="{4A818406-1909-4623-A006-4C6618DF67E3}" PersistMode="Reference"/>
+				<WorkUnit Name="Region" ID="{5B1CE7D2-6F1E-423D-B5A4-D9437D640A20}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

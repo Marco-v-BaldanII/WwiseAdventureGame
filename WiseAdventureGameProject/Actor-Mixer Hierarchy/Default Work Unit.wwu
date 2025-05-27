@@ -26,6 +26,101 @@
 						<ActiveSource Name="OOT_Navi_Listen2" ID="{B1042673-D0FD-4DFC-85B2-2007812A39FF}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Folder Name="creatures" ID="{766589F1-D36C-4691-A42F-8CA90A2901A9}" ShortID="536050120">
+					<ChildrenList>
+						<Folder Name="evil spit plant" ID="{C7621A8B-2801-48E8-9C51-704FF464456D}" ShortID="32170217">
+							<ChildrenList>
+								<Folder Name="shoot" ID="{FD869FEB-280F-4562-AB5E-53A98B422243}" ShortID="590299829">
+									<ChildrenList>
+										<Sound Name="BAS_Evil_SpitPlant_Shoot_01" ID="{80A0D727-17E1-4988-9762-198B6B8C830D}" ShortID="85928836">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0553CE12-6F1D-4F8B-99B3-381D30F298BC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D6AF423-2987-4F26-8C03-9353801E74B9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BAS_Evil_SpitPlant_Shoot_01" ID="{03433369-32C3-4F06-825E-C920E14F0DAA}">
+													<Language>SFX</Language>
+													<AudioFile>BAS_Evil_SpitPlant_Shoot_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="598216288"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="BAS_Evil_SpitPlant_Shoot_01" ID="{03433369-32C3-4F06-825E-C920E14F0DAA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="BAS_Evil_SpitPlant_Shoot_02" ID="{6BEDDAEE-1E82-40EB-A1DA-2268076B0EEA}" ShortID="1027876648">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0553CE12-6F1D-4F8B-99B3-381D30F298BC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D6AF423-2987-4F26-8C03-9353801E74B9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BAS_Evil_SpitPlant_Shoot_01" ID="{6BE10C19-9FD5-4F06-9283-7BAFA28681F1}">
+													<Language>SFX</Language>
+													<AudioFile>BAS_Evil_SpitPlant_Shoot_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="598216288"/>
+													</MediaIDList>
+												</AudioFileSource>
+												<AudioFileSource Name="BAS_Evil_SpitPlant_Shoot_02" ID="{B2D38A0F-14D3-4E65-9544-09CC16E2F586}">
+													<Language>SFX</Language>
+													<AudioFile>BAS_Evil_SpitPlant_Shoot_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="831596196"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="BAS_Evil_SpitPlant_Shoot_02" ID="{B2D38A0F-14D3-4E65-9544-09CC16E2F586}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="BAS_Evil_SpitPlant_Shoot_03" ID="{D523DD94-A87C-4A6E-A9B3-8D9023AE12AC}" ShortID="201972928">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0553CE12-6F1D-4F8B-99B3-381D30F298BC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D6AF423-2987-4F26-8C03-9353801E74B9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BAS_Evil_SpitPlant_Shoot_01" ID="{60F01CA9-EF0C-40C4-A3C2-E7D2708C6277}">
+													<Language>SFX</Language>
+													<AudioFile>BAS_Evil_SpitPlant_Shoot_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="598216288"/>
+													</MediaIDList>
+												</AudioFileSource>
+												<AudioFileSource Name="BAS_Evil_SpitPlant_Shoot_03" ID="{00963547-0994-4EDF-BD1D-7BD51396B248}">
+													<Language>SFX</Language>
+													<AudioFile>BAS_Evil_SpitPlant_Shoot_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="485738809"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="BAS_Evil_SpitPlant_Shoot_03" ID="{00963547-0994-4EDF-BD1D-7BD51396B248}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</Folder>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

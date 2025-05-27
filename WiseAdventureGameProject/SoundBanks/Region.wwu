@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5B1CE7D2-6F1E-423D-B5A4-D9437D640A20}" SchemaVersion="103" RootDocumentID="{B3D1A810-BC0B-491B-8242-DC900F295148}" ParentDocumentID="{B3D1A810-BC0B-491B-8242-DC900F295148}">
+	<SoundBanks>
+		<WorkUnit Name="Region" ID="{5B1CE7D2-6F1E-423D-B5A4-D9437D640A20}" OwnerID="{B3D1A810-BC0B-491B-8242-DC900F295148}" PersistMode="Nested">
+			<ChildrenList>
+				<SoundBank Name="Cave" ID="{BEEC3C6F-0727-4C99-B0BF-8ECFDB2052AE}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Desert" ID="{6784F8CE-BD86-46DD-9A5E-22E80921F503}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Dungeon" ID="{C3BBDBAA-2CAD-4244-ABF9-8E833DEDBAEF}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="PineForest" ID="{F411046D-70A0-4F41-8B10-62042D44F34F}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Village" ID="{B1BD74F3-C747-4EE8-B8FA-E2C4D556F51B}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Woodlands" ID="{C435717A-3605-4966-8C16-7E5BD9202610}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>
