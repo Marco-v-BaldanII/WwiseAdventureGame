@@ -20,6 +20,12 @@
 						<Switch Name="Wood" ID="{06AD2367-7B55-4CA2-B240-4E0010A204F2}"/>
 					</ChildrenList>
 				</SwitchGroup>
+				<SwitchGroup Name="Player_Movement_Speed" ID="{DEFBD420-17AC-487E-9DBA-8B9F18589483}">
+					<ChildrenList>
+						<Switch Name="Run" ID="{7650E7E2-5003-464F-99B1-46603C5BD648}"/>
+						<Switch Name="Walk" ID="{227D3DDD-BDA2-428B-ABD0-24E040F8D050}"/>
+					</ChildrenList>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>

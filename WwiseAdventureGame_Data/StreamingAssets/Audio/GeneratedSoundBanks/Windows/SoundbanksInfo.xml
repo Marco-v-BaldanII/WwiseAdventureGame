@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>C:\Users\marco\OneDrive\Documentos\GitHub\WwiseAdventureGame\WiseAdventureGameProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\marco\OneDrive\Documentos\GitHub\WwiseAdventureGame\WiseAdventureGameProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\marco\OneDrive\Documentos\GitHub\WwiseAdventureGame\WwiseAdventureGame_Data\StreamingAssets\Audio\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\marco\OneDrive\Documentos\GitHub\WwiseAdventureGame\WiseAdventureGameProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="91629507" Language="SFX" Hash="1823676691">
+			<ObjectPath>\SoundBanks\Default Work Unit\General\TtileScreen</ObjectPath>
+			<ShortName>TtileScreen</ShortName>
+			<Path>TtileScreen.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="133642231" Language="SFX" Hash="2145424154">
+			<ObjectPath>\SoundBanks\Default Work Unit\General\General</ObjectPath>
+			<ShortName>General</ShortName>
+			<Path>General.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2453392179" Name="Player_Footstep" ObjectPath="\Events\Default Work Unit\Player_Footstep">
+					<IncludedMemoryFiles>
+						<File Id="409463453" Language="SFX">
+							<ShortName>OOT_Navi_WatchOut1.wav</ShortName>
+							<Path>SFX\OOT_Navi_WatchOut1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="608898761" Language="SFX" Hash="1530567247">
+			<ObjectPath>\SoundBanks\Default Work Unit\Region\Dungeon</ObjectPath>
+			<ShortName>Dungeon</ShortName>
+			<Path>Dungeon.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX" Hash="1958929096">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1421251628" Language="SFX" Hash="80661246">
+			<ObjectPath>\SoundBanks\Default Work Unit\Region\Woodlands</ObjectPath>
+			<ShortName>Woodlands</ShortName>
+			<Path>Woodlands.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1850388778" Language="SFX" Hash="3979632980">
+			<ObjectPath>\SoundBanks\Default Work Unit\Region\Desert</ObjectPath>
+			<ShortName>Desert</ShortName>
+			<Path>Desert.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="2201105581" Language="SFX" Hash="540014219">
+			<ObjectPath>\SoundBanks\Default Work Unit\General\Credits</ObjectPath>
+			<ShortName>Credits</ShortName>
+			<Path>Credits.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="2307651649" Language="SFX" Hash="1309746763">
+			<ObjectPath>\SoundBanks\Default Work Unit\Context\Quest_01</ObjectPath>
+			<ShortName>Quest_01</ShortName>
+			<Path>Quest_01.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="2307651650" Language="SFX" Hash="297679969">
+			<ObjectPath>\SoundBanks\Default Work Unit\Context\Quest_02</ObjectPath>
+			<ShortName>Quest_02</ShortName>
+			<Path>Quest_02.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="2307651651" Language="SFX" Hash="1652609962">
+			<ObjectPath>\SoundBanks\Default Work Unit\Context\Quest_03</ObjectPath>
+			<ShortName>Quest_03</ShortName>
+			<Path>Quest_03.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="2307651652" Language="SFX" Hash="1872052893">
+			<ObjectPath>\SoundBanks\Default Work Unit\Context\Quest_04</ObjectPath>
+			<ShortName>Quest_04</ShortName>
+			<Path>Quest_04.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="2307651653" Language="SFX" Hash="2870002718">
+			<ObjectPath>\SoundBanks\Default Work Unit\Context\Quest_05</ObjectPath>
+			<ShortName>Quest_05</ShortName>
+			<Path>Quest_05.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="2307651654" Language="SFX" Hash="1479206422">
+			<ObjectPath>\SoundBanks\Default Work Unit\Context\Quest_06</ObjectPath>
+			<ShortName>Quest_06</ShortName>
+			<Path>Quest_06.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="2307651655" Language="SFX" Hash="2926430532">
+			<ObjectPath>\SoundBanks\Default Work Unit\Context\Quest_07</ObjectPath>
+			<ShortName>Quest_07</ShortName>
+			<Path>Quest_07.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="2307651656" Language="SFX" Hash="4048106291">
+			<ObjectPath>\SoundBanks\Default Work Unit\Context\Quest_08</ObjectPath>
+			<ShortName>Quest_08</ShortName>
+			<Path>Quest_08.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="2482365692" Language="SFX" Hash="2034809225">
+			<ObjectPath>\SoundBanks\Default Work Unit\Region\PineForest</ObjectPath>
+			<ShortName>PineForest</ShortName>
+			<Path>PineForest.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3945572659" Language="SFX" Hash="981781572">
+			<ObjectPath>\SoundBanks\Default Work Unit\Region\Village</ObjectPath>
+			<ShortName>Village</ShortName>
+			<Path>Village.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="4122393694" Language="SFX" Hash="1284784999">
+			<ObjectPath>\SoundBanks\Default Work Unit\Region\Cave</ObjectPath>
+			<ShortName>Cave</ShortName>
+			<Path>Cave.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

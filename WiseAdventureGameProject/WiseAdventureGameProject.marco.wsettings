@@ -3,7 +3,7 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{AECFAAD5-D735-4A10-A750-57B7BAF35811}">
 			<PropertyList>
-				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\marco\OneDrive\Documentos\GitHub\WwiseAdventureGame\WAG Originals\Creatures\"/>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\marco\Downloads\"/>
 				<Property Name="Event Action List\{091CDF20-D05E-4040-9BBA-A02DD6773D65}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{2D500F73-C4AB-481C-91EC-385D8386AFCA}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{2FD699D2-8095-4922-8D25-57323D518ABD}\x64_Expand States" Type="string" Value=""/>

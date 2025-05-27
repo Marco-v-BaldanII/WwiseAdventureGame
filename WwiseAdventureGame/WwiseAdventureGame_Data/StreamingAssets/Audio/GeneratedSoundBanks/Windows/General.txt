@@ -1,6 +1,0 @@
-Event	ID	Name			Wwise Object Path	Notes
-	2453392179	Player_Footstep			\Default Work Unit\Player_Footstep	
-
-In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	1062550428	Player_Foorstep	C:\Users\marco\OneDrive\Escritorio\5. WAG (Deliverable)(1)\PabloSabio\WiseAdventureGameProject\.cache\Windows\SFX\OOT_Navi_Listen2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_Foorstep		42196
-
