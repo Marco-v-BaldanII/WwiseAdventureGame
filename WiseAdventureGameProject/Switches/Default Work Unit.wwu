@@ -37,6 +37,15 @@
 						<Switch Name="Mushroom" ID="{AC64BEA5-A6E2-48F1-B2B7-E3B3878BD0B8}"/>
 					</ChildrenList>
 				</SwitchGroup>
+				<SwitchGroup Name="Player_Weapon_Type" ID="{BC160C8B-6F56-4218-813E-BB6FA417ED81}">
+					<ChildrenList>
+						<Switch Name="Axe" ID="{4C1CC768-51E9-4C26-8AE1-FF1E8125FCEE}"/>
+						<Switch Name="Dagger" ID="{03205DE1-8033-4604-B3DF-6201371C4349}"/>
+						<Switch Name="Hammer" ID="{272E6DB8-0A80-4EAE-B956-CEC1B412956F}"/>
+						<Switch Name="PickAxe" ID="{45CE001A-E38A-4570-BF39-BE9DF3215A0E}"/>
+						<Switch Name="Sword" ID="{DFF45B27-7A13-4DBF-9984-5D1D5BEFFCB9}"/>
+					</ChildrenList>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>

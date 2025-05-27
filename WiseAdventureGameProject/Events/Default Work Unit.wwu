@@ -18,7 +18,7 @@
 								<Event Name="Enemy_EvilSpitPlant_Death_ShootLoop_Stop" ID="{2D500F73-C4AB-481C-91EC-385D8386AFCA}"/>
 							</ChildrenList>
 						</Folder>
-						<Event Name="PickupItemType" ID="{A11C755E-82AC-4F00-9D4D-79D66E25CE1D}">
+						<Event Name="Pickup_ItemType" ID="{A11C755E-82AC-4F00-9D4D-79D66E25CE1D}">
 							<ChildrenList>
 								<Action Name="" ID="{CE807F5F-8E63-4099-9F50-E7DAF13FAC13}" ShortID="35208257">
 									<ReferenceList>
@@ -35,6 +35,29 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Player_Footstep" ID="{9A496FE5-E88F-48AD-B4E7-85DA30AA6C20}" WorkUnitID="{AF0D20C8-2112-4F11-BD9E-0D6784296900}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Player_WeaponImpact" ID="{DF048A2A-2697-4C28-802C-92439F4529E3}">
+							<ChildrenList>
+								<Action Name="" ID="{8F8BDB16-895E-4452-AECE-4D02F8E95F28}" ShortID="397423158">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Impacts" ID="{74500D60-8D2A-4B1F-8E6E-E30EFB2B1BF1}" WorkUnitID="{AF0D20C8-2112-4F11-BD9E-0D6784296900}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Player_WeaponSwing" ID="{491D9A55-D2E5-4B2B-A0C1-1148D58C5087}"/>
+						<Event Name="Player_Hurt_Vox" ID="{74E5F53B-FAB0-459C-9A18-01B14CAB4882}">
+							<ChildrenList>
+								<Action Name="" ID="{DFE1B735-3B2B-4C36-AFBB-F2969EA34237}" ShortID="1045111710">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Hurt" ID="{CD375F5F-8699-406A-90FB-DC9049A29CA3}" WorkUnitID="{AF0D20C8-2112-4F11-BD9E-0D6784296900}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
