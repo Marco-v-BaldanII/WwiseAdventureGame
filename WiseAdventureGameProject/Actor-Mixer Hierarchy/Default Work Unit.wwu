@@ -2444,6 +2444,545 @@
 						</GroupingList>
 					</GroupingInfo>
 				</SwitchContainer>
+				<Folder Name="Pickups" ID="{6505EA0B-6B8E-41A8-8CF8-45BC6875862B}" ShortID="399067107">
+					<ChildrenList>
+						<Folder Name="Weapons" ID="{38EB1721-FCD5-48FC-8290-9C34A20AD320}" ShortID="943781017">
+							<ChildrenList>
+								<Sound Name="BAS_Pickup_WeaponType_Axe_01" ID="{8DCD5072-9292-4088-B519-5B76FD1A7FA7}" ShortID="185580354">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0553CE12-6F1D-4F8B-99B3-381D30F298BC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D6AF423-2987-4F26-8C03-9353801E74B9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_Pickup_WeaponType_Axe_01" ID="{BF42233B-FA99-45EC-86C5-EA0CEE224556}">
+											<Language>SFX</Language>
+											<AudioFile>Pickups\Weapons\BAS_Pickup_WeaponType_Axe_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="484547586"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_Pickup_WeaponType_Axe_01" ID="{BF42233B-FA99-45EC-86C5-EA0CEE224556}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BAS_Pickup_WeaponType_Dagger" ID="{89715F3E-22AE-4F41-A4E7-5AFB0BFD3DF0}" ShortID="20346636">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0553CE12-6F1D-4F8B-99B3-381D30F298BC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D6AF423-2987-4F26-8C03-9353801E74B9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_Pickup_WeaponType_Dagger" ID="{85C2623A-5F88-427C-90E0-18C62AC1F9BB}">
+											<Language>SFX</Language>
+											<AudioFile>Pickups\Weapons\BAS_Pickup_WeaponType_Dagger.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="88267451"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_Pickup_WeaponType_Dagger" ID="{85C2623A-5F88-427C-90E0-18C62AC1F9BB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BAS_Pickup_WeaponType_Hammer_01" ID="{494414B5-FA6C-4BBA-A16C-D54EB4694A95}" ShortID="501472693">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0553CE12-6F1D-4F8B-99B3-381D30F298BC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D6AF423-2987-4F26-8C03-9353801E74B9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_Pickup_WeaponType_Hammer_01" ID="{0EEB4AB7-44AD-4F03-9D45-4BBC32B044A3}">
+											<Language>SFX</Language>
+											<AudioFile>Pickups\Weapons\BAS_Pickup_WeaponType_Hammer_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1009758088"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_Pickup_WeaponType_Hammer_01" ID="{0EEB4AB7-44AD-4F03-9D45-4BBC32B044A3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BAS_Pickup_WeaponType_Pickaxe_01" ID="{77D13C89-B21B-4A1B-81C9-FBB787C0C04E}" ShortID="465985220">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0553CE12-6F1D-4F8B-99B3-381D30F298BC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D6AF423-2987-4F26-8C03-9353801E74B9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_Pickup_WeaponType_Pickaxe_01" ID="{A5A64A23-BC87-4304-A913-DFFDF89B132B}">
+											<Language>SFX</Language>
+											<AudioFile>Pickups\Weapons\BAS_Pickup_WeaponType_Pickaxe_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="287166675"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_Pickup_WeaponType_Pickaxe_01" ID="{A5A64A23-BC87-4304-A913-DFFDF89B132B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BAS_Pickup_WeaponType_Sword_01" ID="{ACBF3A73-18D0-4F78-A7C5-5501ED74B011}" ShortID="210186893">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0553CE12-6F1D-4F8B-99B3-381D30F298BC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D6AF423-2987-4F26-8C03-9353801E74B9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_Pickup_WeaponType_Sword_01" ID="{8395EEE6-5B9B-4440-9A35-01716F5E0D07}">
+											<Language>SFX</Language>
+											<AudioFile>Pickups\Weapons\BAS_Pickup_WeaponType_Sword_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="53973068"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_Pickup_WeaponType_Sword_01" ID="{8395EEE6-5B9B-4440-9A35-01716F5E0D07}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+						<SwitchContainer Name="Items" ID="{F14056F3-9AA2-4500-83A0-20A8224053E8}" ShortID="821116538">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0553CE12-6F1D-4F8B-99B3-381D30F298BC}"/>
+								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Misc" ID="{D30EAFDA-E1E6-41C6-A003-3EB88B4F8F89}" WorkUnitID="{B4C8F2F3-F251-467A-A659-05A3A502A5DD}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D6AF423-2987-4F26-8C03-9353801E74B9}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="Player_Pickup_ItemType" ID="{7FE6BB45-A8A9-4E3D-A734-118099FBAAE0}" WorkUnitID="{B4C8F2F3-F251-467A-A659-05A3A502A5DD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="BAS_Pickup_Book_01" ID="{A4E136D9-9EBD-4659-A259-82CA8F120EB5}" ShortID="14672465">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0553CE12-6F1D-4F8B-99B3-381D30F298BC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D6AF423-2987-4F26-8C03-9353801E74B9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_Pickup_Book_01" ID="{2967376C-B8C8-419C-A8CA-C0846F9D5AA2}">
+											<Language>SFX</Language>
+											<AudioFile>Pickups\Items\BAS_Pickup_Book_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="759969559"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_Pickup_Book_01" ID="{2967376C-B8C8-419C-A8CA-C0846F9D5AA2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BAS_Pickup_Mushroom_01" ID="{2181A94B-16FB-4D7F-A28F-56DF17884E70}" ShortID="730574232">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0553CE12-6F1D-4F8B-99B3-381D30F298BC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D6AF423-2987-4F26-8C03-9353801E74B9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_Pickup_Mushroom_01" ID="{2DBC9FB8-A52E-46D3-81EF-D20774253744}">
+											<Language>SFX</Language>
+											<AudioFile>Pickups\Items\BAS_Pickup_Mushroom_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1052083763"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_Pickup_Mushroom_01" ID="{2DBC9FB8-A52E-46D3-81EF-D20774253744}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BAS_Pickup_EvilEssence" ID="{FADE2DAA-7247-4CA6-BD07-9560F2342EA0}" ShortID="900603319">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0553CE12-6F1D-4F8B-99B3-381D30F298BC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D6AF423-2987-4F26-8C03-9353801E74B9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_Pickup_EvilEssence" ID="{D66B37B6-62FA-47CA-9965-8B775E1E16CF}">
+											<Language>SFX</Language>
+											<AudioFile>Pickups\Items\BAS_Pickup_EvilEssence.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="682812905"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_Pickup_EvilEssence" ID="{D66B37B6-62FA-47CA-9965-8B775E1E16CF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BAS_Pickup_Generic_05" ID="{884A0CE6-F518-45B4-8232-DA66A8722B59}" ShortID="260437635">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0553CE12-6F1D-4F8B-99B3-381D30F298BC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D6AF423-2987-4F26-8C03-9353801E74B9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_Pickup_Generic_05" ID="{CEED9885-7FF9-4DF6-96D7-EBBEBE79885A}">
+											<Language>SFX</Language>
+											<AudioFile>Pickups\Items\BAS_Pickup_Generic_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1036104390"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_Pickup_Generic_05" ID="{CEED9885-7FF9-4DF6-96D7-EBBEBE79885A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BAS_Pickup_Key_01" ID="{CB8D4936-5DCE-42CC-8111-F30F1EE62355}" ShortID="415930789">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0553CE12-6F1D-4F8B-99B3-381D30F298BC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D6AF423-2987-4F26-8C03-9353801E74B9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_Pickup_Key_01" ID="{AE82C1C4-E927-4147-A7DB-536EA4A24A09}">
+											<Language>SFX</Language>
+											<AudioFile>Pickups\Items\BAS_Pickup_Key_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="141765458"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_Pickup_Key_01" ID="{AE82C1C4-E927-4147-A7DB-536EA4A24A09}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BAS_Pickup_PineCone_01" ID="{B96EBA75-88F2-4A1C-9C3C-591FBB3379D7}" ShortID="337800041">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0553CE12-6F1D-4F8B-99B3-381D30F298BC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D6AF423-2987-4F26-8C03-9353801E74B9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_Pickup_PineCone_01" ID="{18924CAF-366C-4E3B-8062-F3A5DB04475E}">
+											<Language>SFX</Language>
+											<AudioFile>Pickups\Items\BAS_Pickup_PineCone_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="846038774"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_Pickup_PineCone_01" ID="{18924CAF-366C-4E3B-8062-F3A5DB04475E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<RandomSequenceContainer Name="Coin" ID="{48C28F5B-9CBB-436B-8901-A521F14AB052}" ShortID="402194377">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0553CE12-6F1D-4F8B-99B3-381D30F298BC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D6AF423-2987-4F26-8C03-9353801E74B9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="BAS_Pickup_Coin_01" ID="{9ECF71D3-A54B-417B-8C5E-5F462302F04C}" ShortID="584603856">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0553CE12-6F1D-4F8B-99B3-381D30F298BC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D6AF423-2987-4F26-8C03-9353801E74B9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BAS_Pickup_Coin_01" ID="{E0E7DC0A-C166-4E04-A516-89EBF5D77432}">
+													<Language>SFX</Language>
+													<AudioFile>Pickups\Items\BAS_Pickup_Coin_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="212506868"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="BAS_Pickup_Coin_01" ID="{E0E7DC0A-C166-4E04-A516-89EBF5D77432}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="BAS_Pickup_Coin_04" ID="{1E01DE1D-666E-4DA0-98B7-2F2E2B2EAE06}" ShortID="568051205">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0553CE12-6F1D-4F8B-99B3-381D30F298BC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D6AF423-2987-4F26-8C03-9353801E74B9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BAS_Pickup_Coin_04" ID="{4D6DB608-75AF-4116-A59A-BB627A62C676}">
+													<Language>SFX</Language>
+													<AudioFile>Pickups\Items\BAS_Pickup_Coin_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="475659256"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="BAS_Pickup_Coin_04" ID="{4D6DB608-75AF-4116-A59A-BB627A62C676}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="BAS_Pickup_Coin_02" ID="{F4E4B0B3-539C-4302-BBB3-B6FDBF4CD78A}" ShortID="470216501">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0553CE12-6F1D-4F8B-99B3-381D30F298BC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D6AF423-2987-4F26-8C03-9353801E74B9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BAS_Pickup_Coin_02" ID="{DC5C49ED-38A5-4689-999C-24D191A1FC92}">
+													<Language>SFX</Language>
+													<AudioFile>Pickups\Items\BAS_Pickup_Coin_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="438601015"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="BAS_Pickup_Coin_02" ID="{DC5C49ED-38A5-4689-999C-24D191A1FC92}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="BAS_Pickup_Coin_03" ID="{659DEA9A-679B-4062-AC37-47DA6BD21BF9}" ShortID="56145315">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0553CE12-6F1D-4F8B-99B3-381D30F298BC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D6AF423-2987-4F26-8C03-9353801E74B9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BAS_Pickup_Coin_03" ID="{82413DA7-E0C7-48AC-B1A2-5ABF45764DEB}">
+													<Language>SFX</Language>
+													<AudioFile>Pickups\Items\BAS_Pickup_Coin_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="308750006"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="BAS_Pickup_Coin_03" ID="{82413DA7-E0C7-48AC-B1A2-5ABF45764DEB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Crystal" ID="{2A60ADC7-9896-4A9D-8629-B1EDB53DD7D6}" ShortID="130263607">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0553CE12-6F1D-4F8B-99B3-381D30F298BC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D6AF423-2987-4F26-8C03-9353801E74B9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="BAS_Pickup_Crystals_01" ID="{D0FF1519-96D7-445F-9A38-245B92D8A092}" ShortID="670985544">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0553CE12-6F1D-4F8B-99B3-381D30F298BC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D6AF423-2987-4F26-8C03-9353801E74B9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BAS_Pickup_Crystals_01" ID="{B004F53B-9B92-4772-A368-7F503AA6B925}">
+													<Language>SFX</Language>
+													<AudioFile>Pickups\Items\BAS_Pickup_Crystals_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="512949685"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="BAS_Pickup_Crystals_01" ID="{B004F53B-9B92-4772-A368-7F503AA6B925}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="BAS_Pickup_Crystals_02" ID="{B66CCB01-B2A3-4714-9750-AD53D1851C83}" ShortID="218240905">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0553CE12-6F1D-4F8B-99B3-381D30F298BC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D6AF423-2987-4F26-8C03-9353801E74B9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BAS_Pickup_Crystals_02" ID="{2BBCB4F4-6935-4FB3-A6A8-EF8B415600B8}">
+													<Language>SFX</Language>
+													<AudioFile>Pickups\Items\BAS_Pickup_Crystals_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="31219617"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="BAS_Pickup_Crystals_02" ID="{2BBCB4F4-6935-4FB3-A6A8-EF8B415600B8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="BAS_Pickup_Crystals_03" ID="{80FE17A0-4DBC-4343-87A8-4AF9BF6BAD69}" ShortID="1065755535">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0553CE12-6F1D-4F8B-99B3-381D30F298BC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D6AF423-2987-4F26-8C03-9353801E74B9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BAS_Pickup_Crystals_03" ID="{FE6139CE-6498-4227-B8AC-736A3776E4D6}">
+													<Language>SFX</Language>
+													<AudioFile>Pickups\Items\BAS_Pickup_Crystals_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="27960356"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="BAS_Pickup_Crystals_03" ID="{FE6139CE-6498-4227-B8AC-736A3776E4D6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<ObjectLists/>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="BAS_Pickup_Key_01" ID="{CB8D4936-5DCE-42CC-8111-F30F1EE62355}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="BAS_Pickup_Mushroom_01" ID="{2181A94B-16FB-4D7F-A28F-56DF17884E70}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Coin" ID="{48C28F5B-9CBB-436B-8901-A521F14AB052}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="BAS_Pickup_PineCone_01" ID="{B96EBA75-88F2-4A1C-9C3C-591FBB3379D7}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="BAS_Pickup_EvilEssence" ID="{FADE2DAA-7247-4CA6-BD07-9560F2342EA0}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Crystal" ID="{2A60ADC7-9896-4A9D-8629-B1EDB53DD7D6}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="BAS_Pickup_Book_01" ID="{A4E136D9-9EBD-4659-A259-82CA8F120EB5}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="BAS_Pickup_Generic_05" ID="{884A0CE6-F518-45B4-8232-DA66A8722B59}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="CrystalShard" ID="{FFBC9840-8060-4573-8C8F-678E42A6E711}"/>
+										<ItemList>
+											<ItemRef Name="Crystal" ID="{2A60ADC7-9896-4A9D-8629-B1EDB53DD7D6}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="EvilEssence" ID="{64B66D8A-10B7-493C-BD9A-84837FAC40DA}"/>
+										<ItemList>
+											<ItemRef Name="BAS_Pickup_EvilEssence" ID="{FADE2DAA-7247-4CA6-BD07-9560F2342EA0}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Mushroom" ID="{AC64BEA5-A6E2-48F1-B2B7-E3B3878BD0B8}"/>
+										<ItemList>
+											<ItemRef Name="BAS_Pickup_Mushroom_01" ID="{2181A94B-16FB-4D7F-A28F-56DF17884E70}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Book" ID="{958E0AB1-DC0E-4D62-9953-AD190FAC7CD3}"/>
+										<ItemList>
+											<ItemRef Name="BAS_Pickup_Book_01" ID="{A4E136D9-9EBD-4659-A259-82CA8F120EB5}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Misc" ID="{D30EAFDA-E1E6-41C6-A003-3EB88B4F8F89}"/>
+										<ItemList>
+											<ItemRef Name="BAS_Pickup_Generic_05" ID="{884A0CE6-F518-45B4-8232-DA66A8722B59}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Key" ID="{641390E0-4DCD-483D-9A16-2077292653A9}"/>
+										<ItemList>
+											<ItemRef Name="BAS_Pickup_Key_01" ID="{CB8D4936-5DCE-42CC-8111-F30F1EE62355}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="PineCone" ID="{BC4180E6-855C-4857-AB67-68E973F6A4C7}"/>
+										<ItemList>
+											<ItemRef Name="BAS_Pickup_PineCone_01" ID="{B96EBA75-88F2-4A1C-9C3C-591FBB3379D7}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

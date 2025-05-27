@@ -16,12 +16,92 @@
 			<ShortName>TtileScreen</ShortName>
 			<Path>TtileScreen.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="133642231" Language="SFX" Hash="1466097749">
+		<SoundBank Id="133642231" Language="SFX" Hash="3783341879">
 			<ObjectPath>\SoundBanks\Default Work Unit\General\General</ObjectPath>
 			<ShortName>General</ShortName>
 			<Path>General.bnk</Path>
 			<IncludedEvents>
-				<Event Id="2453392179" Name="Player_Footstep" ObjectPath="\Events\Default Work Unit\Player_Footstep">
+				<Event Id="509318909" Name="Pickup_ItemType" ObjectPath="\Events\Default Work Unit\sfx\Pickup_ItemType">
+					<IncludedMemoryFiles>
+						<File Id="27960356" Language="SFX">
+							<ShortName>Pickups\Items\BAS_Pickup_Crystals_03.wav</ShortName>
+							<Path>SFX\Pickups\Items\BAS_Pickup_Crystals_03_10C4C929.wem</Path>
+						</File>
+						<File Id="31219617" Language="SFX">
+							<ShortName>Pickups\Items\BAS_Pickup_Crystals_02.wav</ShortName>
+							<Path>SFX\Pickups\Items\BAS_Pickup_Crystals_02_10C4C929.wem</Path>
+						</File>
+						<File Id="141765458" Language="SFX">
+							<ShortName>Pickups\Items\BAS_Pickup_Key_01.wav</ShortName>
+							<Path>SFX\Pickups\Items\BAS_Pickup_Key_01_10C4C929.wem</Path>
+						</File>
+						<File Id="512949685" Language="SFX">
+							<ShortName>Pickups\Items\BAS_Pickup_Crystals_01.wav</ShortName>
+							<Path>SFX\Pickups\Items\BAS_Pickup_Crystals_01_10C4C929.wem</Path>
+						</File>
+						<File Id="682812905" Language="SFX">
+							<ShortName>Pickups\Items\BAS_Pickup_EvilEssence.wav</ShortName>
+							<Path>SFX\Pickups\Items\BAS_Pickup_EvilEssence_10C4C929.wem</Path>
+						</File>
+						<File Id="759969559" Language="SFX">
+							<ShortName>Pickups\Items\BAS_Pickup_Book_01.wav</ShortName>
+							<Path>SFX\Pickups\Items\BAS_Pickup_Book_01_10C4C929.wem</Path>
+						</File>
+						<File Id="846038774" Language="SFX">
+							<ShortName>Pickups\Items\BAS_Pickup_PineCone_01.wav</ShortName>
+							<Path>SFX\Pickups\Items\BAS_Pickup_PineCone_01_10C4C929.wem</Path>
+						</File>
+						<File Id="1036104390" Language="SFX">
+							<ShortName>Pickups\Items\BAS_Pickup_Generic_05.wav</ShortName>
+							<Path>SFX\Pickups\Items\BAS_Pickup_Generic_05_10C4C929.wem</Path>
+						</File>
+						<File Id="1052083763" Language="SFX">
+							<ShortName>Pickups\Items\BAS_Pickup_Mushroom_01.wav</ShortName>
+							<Path>SFX\Pickups\Items\BAS_Pickup_Mushroom_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{D30EAFDA-E1E6-41C6-A003-3EB88B4F8F89}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{FFBC9840-8060-4573-8C8F-678E42A6E711}">
+							<Media>
+								<File Id="27960356"/>
+								<File Id="31219617"/>
+								<File Id="512949685"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{64B66D8A-10B7-493C-BD9A-84837FAC40DA}">
+							<Media>
+								<File Id="682812905"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{AC64BEA5-A6E2-48F1-B2B7-E3B3878BD0B8}">
+							<Media>
+								<File Id="1052083763"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{958E0AB1-DC0E-4D62-9953-AD190FAC7CD3}">
+							<Media>
+								<File Id="759969559"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{D30EAFDA-E1E6-41C6-A003-3EB88B4F8F89}">
+							<Media>
+								<File Id="1036104390"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{641390E0-4DCD-483D-9A16-2077292653A9}">
+							<Media>
+								<File Id="141765458"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{BC4180E6-855C-4857-AB67-68E973F6A4C7}">
+							<Media>
+								<File Id="846038774"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="2453392179" Name="Player_Footstep" ObjectPath="\Events\Default Work Unit\sfx\Player_Footstep">
 					<IncludedMemoryFiles>
 						<File Id="30306548" Language="SFX">
 							<ShortName>Run\Grass\BAS_Player_Footstep_grass_run_05.wav</ShortName>
@@ -532,6 +612,17 @@
 					<Switches>
 						<Switch Id="712161704" Name="Run" ObjectPath="\Switches\Default Work Unit\Player_Movement_Speed\Run" GUID="{7650E7E2-5003-464F-99B1-46603C5BD648}"/>
 						<Switch Id="2108779966" Name="Walk" ObjectPath="\Switches\Default Work Unit\Player_Movement_Speed\Walk" GUID="{227D3DDD-BDA2-428B-ABD0-24E040F8D050}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="3639591801" Name="Player_Pickup_ItemType" ObjectPath="\Switches\Default Work Unit\Player_Pickup_ItemType" GUID="{7FE6BB45-A8A9-4E3D-A734-118099FBAAE0}">
+					<Switches>
+						<Switch Id="1761501022" Name="Book" ObjectPath="\Switches\Default Work Unit\Player_Pickup_ItemType\Book" GUID="{958E0AB1-DC0E-4D62-9953-AD190FAC7CD3}"/>
+						<Switch Id="2416868231" Name="CrystalShard" ObjectPath="\Switches\Default Work Unit\Player_Pickup_ItemType\CrystalShard" GUID="{FFBC9840-8060-4573-8C8F-678E42A6E711}"/>
+						<Switch Id="1183067778" Name="Key" ObjectPath="\Switches\Default Work Unit\Player_Pickup_ItemType\Key" GUID="{641390E0-4DCD-483D-9A16-2077292653A9}"/>
+						<Switch Id="2979801095" Name="EvilEssence" ObjectPath="\Switches\Default Work Unit\Player_Pickup_ItemType\EvilEssence" GUID="{64B66D8A-10B7-493C-BD9A-84837FAC40DA}"/>
+						<Switch Id="632653906" Name="PineCone" ObjectPath="\Switches\Default Work Unit\Player_Pickup_ItemType\PineCone" GUID="{BC4180E6-855C-4857-AB67-68E973F6A4C7}"/>
+						<Switch Id="3062523257" Name="Misc" ObjectPath="\Switches\Default Work Unit\Player_Pickup_ItemType\Misc" GUID="{D30EAFDA-E1E6-41C6-A003-3EB88B4F8F89}"/>
+						<Switch Id="1941802987" Name="Mushroom" ObjectPath="\Switches\Default Work Unit\Player_Pickup_ItemType\Mushroom" GUID="{AC64BEA5-A6E2-48F1-B2B7-E3B3878BD0B8}"/>
 					</Switches>
 				</SwitchGroup>
 				<SwitchGroup Id="4064446173" Name="Surface_Type" ObjectPath="\Switches\Default Work Unit\Surface_Type" GUID="{5EEDCA36-7D60-469E-BC28-DA0DA8B9175F}">

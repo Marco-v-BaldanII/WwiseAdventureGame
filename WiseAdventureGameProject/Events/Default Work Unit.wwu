@@ -3,17 +3,6 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Player_Footstep" ID="{C286D273-0108-49B3-8390-4C578FF7EF8E}">
-					<ChildrenList>
-						<Action Name="" ID="{9F6DFE05-4754-49CE-9786-ECB95974EC5D}" ShortID="223220690">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Player_Footstep" ID="{9A496FE5-E88F-48AD-B4E7-85DA30AA6C20}" WorkUnitID="{AF0D20C8-2112-4F11-BD9E-0D6784296900}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Folder Name="sfx" ID="{EE002EDF-C9F0-48DD-B398-5490015650B1}" ShortID="87141221">
 					<ChildrenList>
 						<Folder Name="creatures" ID="{EF0ABF01-B862-403F-81F5-8C80D6963CEE}" ShortID="142649348">
@@ -29,6 +18,28 @@
 								<Event Name="Enemy_EvilSpitPlant_Death_ShootLoop_Stop" ID="{2D500F73-C4AB-481C-91EC-385D8386AFCA}"/>
 							</ChildrenList>
 						</Folder>
+						<Event Name="PickupItemType" ID="{A11C755E-82AC-4F00-9D4D-79D66E25CE1D}">
+							<ChildrenList>
+								<Action Name="" ID="{CE807F5F-8E63-4099-9F50-E7DAF13FAC13}" ShortID="35208257">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Items" ID="{F14056F3-9AA2-4500-83A0-20A8224053E8}" WorkUnitID="{AF0D20C8-2112-4F11-BD9E-0D6784296900}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Player_Footstep" ID="{C286D273-0108-49B3-8390-4C578FF7EF8E}">
+							<ChildrenList>
+								<Action Name="" ID="{9F6DFE05-4754-49CE-9786-ECB95974EC5D}" ShortID="223220690">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Player_Footstep" ID="{9A496FE5-E88F-48AD-B4E7-85DA30AA6C20}" WorkUnitID="{AF0D20C8-2112-4F11-BD9E-0D6784296900}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
