@@ -14,23 +14,33 @@
 					<GameSyncExclusionList/>
 				</SoundBank>
 				<SoundBank Name="Dungeon" ID="{C3BBDBAA-2CAD-4244-ABF9-8E833DEDBAEF}">
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="Ambient_Region_Dungeon" ID="{1C8A5910-248D-4AA9-9F74-47C980E91894}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Destruction_Rock_Destroy" ID="{10FB3CAB-1688-4F81-8FE0-F3E1FCFE25F6}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
 				<SoundBank Name="PineForest" ID="{F411046D-70A0-4F41-8B10-62042D44F34F}">
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="Ambient_Region_PineForest" ID="{8961AFB6-8C4D-4CE4-B1E0-E212B3CA0068}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
 				<SoundBank Name="Village" ID="{B1BD74F3-C747-4EE8-B8FA-E2C4D556F51B}">
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="Ambient_River" ID="{2CBD18F8-1423-402A-8057-9085694F41A1}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambient_Region_Village" ID="{BA559431-7FD4-4193-A1EB-3B7EE7F70E36}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambient_Windmill" ID="{A6D1FC0F-11CF-4D0F-BC98-69861D1E76ED}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
 				<SoundBank Name="Woodlands" ID="{C435717A-3605-4966-8C16-7E5BD9202610}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Ambient_River" ID="{2CBD18F8-1423-402A-8057-9085694F41A1}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambient_Region_Woodlands" ID="{2F123EBB-3A2B-45F9-AC72-C5F41CC43DBE}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambient_Waterfall" ID="{EE6066A9-D49B-4B5D-A139-3004AB124744}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

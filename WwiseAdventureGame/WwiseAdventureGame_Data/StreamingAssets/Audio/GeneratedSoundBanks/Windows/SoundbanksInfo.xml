@@ -1160,10 +1160,28 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="608898761" Language="SFX" Hash="1530567247">
+		<SoundBank Id="608898761" Language="SFX" Hash="2400081343">
 			<ObjectPath>\SoundBanks\Default Work Unit\Region\Dungeon</ObjectPath>
 			<ShortName>Dungeon</ShortName>
 			<Path>Dungeon.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4077685701" Name="Ambient_Region_Dungeon" ObjectPath="\Events\Default Work Unit\sfx\3D_Emitters\Dungeon\Ambient_Region_Dungeon">
+					<IncludedMemoryFiles>
+						<File Id="634584357" Language="SFX">
+							<ShortName>BAS_amb_dungeon_day_background_loop_01.wav</ShortName>
+							<Path>SFX\BAS_amb_dungeon_day_background_loop_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1999886838" Name="Destruction_Rock_Destroy" ObjectPath="\Events\Default Work Unit\sfx\3D_Emitters\Dungeon\Destruction_Rock_Destroy">
+					<IncludedMemoryFiles>
+						<File Id="972384159" Language="SFX">
+							<ShortName>BAS_Destroy_Rock_01.wav</ShortName>
+							<Path>SFX\BAS_Destroy_Rock_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
 		</SoundBank>
 		<SoundBank Id="1355168291" Language="SFX" Hash="1613730892">
 			<ObjectPath>Init</ObjectPath>
@@ -1174,16 +1192,24 @@
 				<GameParameter Id="2642438544" Name="MenuSlider_Music_Volume" ObjectPath="\Game Parameters\Default Work Unit\MenuSlider_Music_Volume"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1421251628" Language="SFX" Hash="2302834366">
+		<SoundBank Id="1421251628" Language="SFX" Hash="274514667">
 			<ObjectPath>\SoundBanks\Default Work Unit\Region\Woodlands</ObjectPath>
 			<ShortName>Woodlands</ShortName>
 			<Path>Woodlands.bnk</Path>
 			<IncludedEvents>
-				<Event Id="2258053876" Name="Ambient_River" ObjectPath="\Events\Default Work Unit\sfx\3D_Emitters\Ambient_River">
+				<Event Id="1049266392" Name="Ambient_Region_Woodlands" ObjectPath="\Events\Default Work Unit\sfx\3D_Emitters\Woodlands\Ambient_Region_Woodlands">
 					<IncludedMemoryFiles>
-						<File Id="230465007" Language="SFX">
-							<ShortName>Ambient_Emitters\BAS_Water_River.wav</ShortName>
-							<Path>SFX\Ambient_Emitters\BAS_Water_River_786CC497.wem</Path>
+						<File Id="141274162" Language="SFX">
+							<ShortName>Ambient_Emitters\BAS_ForestBirds.wav</ShortName>
+							<Path>SFX\Ambient_Emitters\BAS_ForestBirds_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1934835592" Name="Ambient_Waterfall" ObjectPath="\Events\Default Work Unit\sfx\3D_Emitters\Woodlands\Ambient_Waterfall">
+					<IncludedMemoryFiles>
+						<File Id="429758626" Language="SFX">
+							<ShortName>Ambient_Emitters\BAS_Waterfall.wav</ShortName>
+							<Path>SFX\Ambient_Emitters\BAS_Waterfall_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -1239,15 +1265,51 @@
 			<ShortName>Quest_08</ShortName>
 			<Path>Quest_08.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="2482365692" Language="SFX" Hash="2034809225">
+		<SoundBank Id="2482365692" Language="SFX" Hash="98276036">
 			<ObjectPath>\SoundBanks\Default Work Unit\Region\PineForest</ObjectPath>
 			<ShortName>PineForest</ShortName>
 			<Path>PineForest.bnk</Path>
+			<IncludedEvents>
+				<Event Id="808171864" Name="Ambient_Region_PineForest" ObjectPath="\Events\Default Work Unit\sfx\3D_Emitters\PineForest\Ambient_Region_PineForest">
+					<IncludedMemoryFiles>
+						<File Id="14108779" Language="SFX">
+							<ShortName>BAS_amb_pineforest_night_background_loop_01.wav</ShortName>
+							<Path>SFX\BAS_amb_pineforest_night_background_loop_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="3945572659" Language="SFX" Hash="981781572">
+		<SoundBank Id="3945572659" Language="SFX" Hash="2778403984">
 			<ObjectPath>\SoundBanks\Default Work Unit\Region\Village</ObjectPath>
 			<ShortName>Village</ShortName>
 			<Path>Village.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2752753183" Name="Ambient_Region_Village" ObjectPath="\Events\Default Work Unit\sfx\3D_Emitters\Village\Ambient_Region_Village">
+					<IncludedMemoryFiles>
+						<File Id="704487103" Language="SFX">
+							<ShortName>BAS_amb_village_day_background_loop_01.wav</ShortName>
+							<Path>SFX\BAS_amb_village_day_background_loop_01_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2258053876" Name="Ambient_River" ObjectPath="\Events\Default Work Unit\sfx\3D_Emitters\Village\Ambient_River">
+					<IncludedMemoryFiles>
+						<File Id="230465007" Language="SFX">
+							<ShortName>Ambient_Emitters\BAS_Water_River.wav</ShortName>
+							<Path>SFX\Ambient_Emitters\BAS_Water_River_786CC497.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2208964750" Name="Ambient_Windmill" ObjectPath="\Events\Default Work Unit\sfx\3D_Emitters\Village\Ambient_Windmill">
+					<IncludedMemoryFiles>
+						<File Id="101033904" Language="SFX">
+							<ShortName>Ambient_Emitters\BAS_WindMillBlade_02.wav</ShortName>
+							<Path>SFX\Ambient_Emitters\BAS_WindMillBlade_02_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
 		</SoundBank>
 		<SoundBank Id="4122393694" Language="SFX" Hash="1284784999">
 			<ObjectPath>\SoundBanks\Default Work Unit\Region\Cave</ObjectPath>

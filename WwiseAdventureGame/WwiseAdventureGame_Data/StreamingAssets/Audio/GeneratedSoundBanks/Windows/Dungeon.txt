@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1999886838	Destruction_Rock_Destroy			\Default Work Unit\sfx\3D_Emitters\Dungeon\Destruction_Rock_Destroy	
+	4077685701	Ambient_Region_Dungeon			\Default Work Unit\sfx\3D_Emitters\Dungeon\Ambient_Region_Dungeon	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	634584357	BAS_amb_dungeon_day_background_loop_01	C:\Users\marco\OneDrive\Documentos\GitHub\WwiseAdventureGame\WiseAdventureGameProject\.cache\Windows\SFX\BAS_amb_dungeon_day_background_loop_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\Dungeon\BAS_amb_dungeon_day_background_loop_01		24641600
+	972384159	BAS_Destroy_Rock_01	C:\Users\marco\OneDrive\Documentos\GitHub\WwiseAdventureGame\WiseAdventureGameProject\.cache\Windows\SFX\BAS_Destroy_Rock_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\Dungeon\BAS_Destroy_Rock_01		105536
+

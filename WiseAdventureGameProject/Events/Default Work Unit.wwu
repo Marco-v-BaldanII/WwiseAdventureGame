@@ -147,17 +147,173 @@
 						<Folder Name="3D_Emitters" ID="{571D4D92-FCFB-4CE1-A4E3-72E3EF54E09F}" ShortID="689939975">
 							<ChildrenList>
 								<Event Name="Ambient_Crystal_Hum" ID="{9E400329-6ECD-49B7-AE18-1B05938AF2FE}"/>
-								<Event Name="Ambient_River" ID="{2CBD18F8-1423-402A-8057-9085694F41A1}">
+								<Folder Name="Village" ID="{204544CF-2273-4548-A66B-106CFC8EB204}" ShortID="298834017">
 									<ChildrenList>
-										<Action Name="" ID="{6FEF257B-AC1B-43DF-9254-54DC78F25CB9}" ShortID="662755839">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="BAS_Water_River" ID="{216773FF-46D3-409D-8FA6-67457C48DA9D}" WorkUnitID="{AF0D20C8-2112-4F11-BD9E-0D6784296900}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
+										<Event Name="Ambient_Windmill" ID="{A6D1FC0F-11CF-4D0F-BC98-69861D1E76ED}">
+											<ChildrenList>
+												<Action Name="" ID="{D4DE7F4C-93CA-420B-962B-1C90ED782D50}" ShortID="708116362">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="BAS_WindMillBlade_02" ID="{C74730DB-9974-43F2-B2B6-C3A9EDF900B0}" WorkUnitID="{AF0D20C8-2112-4F11-BD9E-0D6784296900}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Ambient_River" ID="{2CBD18F8-1423-402A-8057-9085694F41A1}">
+											<ChildrenList>
+												<Action Name="" ID="{6FEF257B-AC1B-43DF-9254-54DC78F25CB9}" ShortID="662755839">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="BAS_Water_River" ID="{216773FF-46D3-409D-8FA6-67457C48DA9D}" WorkUnitID="{AF0D20C8-2112-4F11-BD9E-0D6784296900}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Ambient_Region_Village" ID="{BA559431-7FD4-4193-A1EB-3B7EE7F70E36}">
+											<ChildrenList>
+												<Action Name="" ID="{81A9012F-E30E-462A-8B00-1A42B7F7EE11}" ShortID="243049590">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="BAS_amb_village_day_background_loop_01" ID="{D0CE9813-4ED3-4492-A8AB-D8417568479A}" WorkUnitID="{AF0D20C8-2112-4F11-BD9E-0D6784296900}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
 									</ChildrenList>
-								</Event>
+								</Folder>
+								<Folder Name="Woodlands" ID="{96FE23E8-C31D-463F-A3D2-5EAF6E404DF1}" ShortID="229202743">
+									<ChildrenList>
+										<Event Name="Ambient_Region_Woodlands" ID="{2F123EBB-3A2B-45F9-AC72-C5F41CC43DBE}">
+											<ChildrenList>
+												<Action Name="" ID="{C32E8633-2950-4468-98DC-3DD499C2C49C}" ShortID="620982195">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="BAS_ForestBirds" ID="{E2DB83CE-2808-44CB-9612-81E9F20174DD}" WorkUnitID="{AF0D20C8-2112-4F11-BD9E-0D6784296900}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Ambient_Waterfall" ID="{EE6066A9-D49B-4B5D-A139-3004AB124744}">
+											<ChildrenList>
+												<Action Name="" ID="{98A6CF7A-C048-45A7-817A-9B3EB9B7A917}" ShortID="669406632">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="BAS_Waterfall" ID="{44546DCA-FE11-49BF-9D1A-9B9DA627AA85}" WorkUnitID="{AF0D20C8-2112-4F11-BD9E-0D6784296900}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="PineForest" ID="{8550375C-B0F2-4795-A667-C24C349A035F}" ShortID="288621711">
+									<ChildrenList>
+										<Event Name="Ambient_Region_PineForest" ID="{8961AFB6-8C4D-4CE4-B1E0-E212B3CA0068}">
+											<ChildrenList>
+												<Action Name="" ID="{F1C6539A-ADDC-4F0E-BCCF-1DEB9A1C4E3A}" ShortID="846638069">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="BAS_amb_pineforest_night_background_loop_01" ID="{2BF9A28B-C7BC-4D67-AAEB-D76FFB6BE078}" WorkUnitID="{AF0D20C8-2112-4F11-BD9E-0D6784296900}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Dungeon" ID="{14FCA4B6-A9CC-4318-806C-83B21D600AC9}" ShortID="839837910">
+									<ChildrenList>
+										<Event Name="Ambient_Region_Dungeon" ID="{1C8A5910-248D-4AA9-9F74-47C980E91894}">
+											<ChildrenList>
+												<Action Name="" ID="{03D11D51-AFB5-41C2-97E9-59A1952DF693}" ShortID="728272063">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="BAS_amb_dungeon_day_background_loop_01" ID="{6F6DE7A6-3857-4A97-A467-671CFAC08445}" WorkUnitID="{AF0D20C8-2112-4F11-BD9E-0D6784296900}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Destruction_Rock_Destroy" ID="{10FB3CAB-1688-4F81-8FE0-F3E1FCFE25F6}">
+											<ChildrenList>
+												<Action Name="" ID="{037DDBD4-E162-4C97-8956-CF44865DEC14}" ShortID="471909870">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="BAS_Destroy_Rock_01" ID="{223CFDAE-9FAB-4EFC-92DB-F1A8C4E0C1BA}" WorkUnitID="{AF0D20C8-2112-4F11-BD9E-0D6784296900}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Desert" ID="{5EEA759C-C167-4FD9-8E27-1E4115BF7C9F}" ShortID="102698026">
+									<ChildrenList>
+										<Event Name="Ambient_Region_Desert" ID="{9BEB1DC2-6517-4E54-985B-1F3F06CE7F05}">
+											<ChildrenList>
+												<Action Name="" ID="{F0B5A003-34E3-4704-BF4A-E74B6281237C}" ShortID="489538272">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="BAS_amb_desert_day_background_loop_01" ID="{6D434E30-35AD-4084-8A3E-604E17146E63}" WorkUnitID="{AF0D20C8-2112-4F11-BD9E-0D6784296900}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Destruction_VolcanicBoulder_Impact" ID="{D7B73127-708D-4C4F-BA6D-2636C4292224}">
+											<ChildrenList>
+												<Action Name="" ID="{7E169682-A0DE-4BD9-8F3A-EAF86C09447D}" ShortID="1053313181">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Volcanic_Explosion" ID="{06A677C9-36E4-484F-AA29-8CC74A660957}" WorkUnitID="{AF0D20C8-2112-4F11-BD9E-0D6784296900}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Cave" ID="{B7093AFB-AEE5-41DC-8245-D111A0A0A107}" ShortID="805730765">
+									<ChildrenList>
+										<Event Name="Ambient_Region_cave" ID="{C4F7DDE0-A2E9-4713-9261-E82E0BA221DC}">
+											<ChildrenList>
+												<Action Name="" ID="{9A28E5ED-7556-46AB-A88E-F44562A05670}" ShortID="105814539">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="BAS_amb_cave_background_LP" ID="{C7EB1468-ED15-4DB5-B251-5D92B0F7FC31}" WorkUnitID="{AF0D20C8-2112-4F11-BD9E-0D6784296900}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Ambient_WaterDrop" ID="{50F8358A-D4B2-4F69-81DC-F8826C453B0A}">
+											<ChildrenList>
+												<Action Name="" ID="{A4AD73ED-A261-4243-940F-ADAE1571671A}" ShortID="504958759">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Ambient_Water_Drop" ID="{BBDD4D29-3AF3-4779-BBAB-BF18833C220A}" WorkUnitID="{AF0D20C8-2112-4F11-BD9E-0D6784296900}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Destruction_Crystal_Destroy" ID="{E4460F3B-24B8-4ED6-BDAE-8EC4E0141C7F}">
+											<ChildrenList>
+												<Action Name="" ID="{EDDFDA25-02D0-4086-A04C-29A5BBE815E4}" ShortID="416311866">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="BAS_Crystals_Destroy" ID="{DDEB1E53-A9D1-49A9-9457-C8A087057829}" WorkUnitID="{AF0D20C8-2112-4F11-BD9E-0D6784296900}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>

@@ -1,6 +1,8 @@
 Event	ID	Name			Wwise Object Path	Notes
-	2258053876	Ambient_River			\Default Work Unit\sfx\3D_Emitters\Ambient_River	
+	1049266392	Ambient_Region_Woodlands			\Default Work Unit\sfx\3D_Emitters\Woodlands\Ambient_Region_Woodlands	
+	1934835592	Ambient_Waterfall			\Default Work Unit\sfx\3D_Emitters\Woodlands\Ambient_Waterfall	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	230465007	BAS_Water_River	C:\Users\marco\OneDrive\Documentos\GitHub\WwiseAdventureGame\WiseAdventureGameProject\.cache\Windows\SFX\Ambient_Emitters\BAS_Water_River_786CC497.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\BAS_Water_River		3072208
+	141274162	BAS_ForestBirds	C:\Users\marco\OneDrive\Documentos\GitHub\WwiseAdventureGame\WiseAdventureGameProject\.cache\Windows\SFX\Ambient_Emitters\BAS_ForestBirds_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\Woodlands\BAS_ForestBirds		852032
+	429758626	BAS_Waterfall	C:\Users\marco\OneDrive\Documentos\GitHub\WwiseAdventureGame\WiseAdventureGameProject\.cache\Windows\SFX\Ambient_Emitters\BAS_Waterfall_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\Woodlands\BAS_Waterfall		768064
 
