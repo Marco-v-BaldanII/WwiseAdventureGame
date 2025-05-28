@@ -6799,6 +6799,192 @@
 						</Sound>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Auxiliary" ID="{2F0FD372-CAD3-4AEA-8942-BC790577001B}" ShortID="974797325">
+					<ChildrenList>
+						<Sound Name="Dungeon_PathToForge" ID="{5F6AB717-BB23-42E2-A0E4-FAA96C96BA41}" ShortID="424635768">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0553CE12-6F1D-4F8B-99B3-381D30F298BC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D6AF423-2987-4F26-8C03-9353801E74B9}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Aux" ID="{B906269B-9288-4A6F-B4E9-D1FF3425281A}" WorkUnitID="{0D6AF423-2987-4F26-8C03-9353801E74B9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Dungeon_PathToForge" ID="{03280749-DCBD-4D79-865B-23178E2F6857}">
+									<Language>SFX</Language>
+									<AudioFile>Dungeon_PathToForge.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="834508204"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Dungeon_PathToForge" ID="{03280749-DCBD-4D79-865B-23178E2F6857}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dungeon_library_statue" ID="{53CF46FE-EED7-4C1C-A1C2-F426FBCC0C8E}" ShortID="57056365">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0553CE12-6F1D-4F8B-99B3-381D30F298BC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D6AF423-2987-4F26-8C03-9353801E74B9}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Aux" ID="{B906269B-9288-4A6F-B4E9-D1FF3425281A}" WorkUnitID="{0D6AF423-2987-4F26-8C03-9353801E74B9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dungeon_library_statue" ID="{695A3D88-FA00-435D-9EAE-9633ECBF7B0B}">
+									<Language>SFX</Language>
+									<AudioFile>dungeon_library_statue.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="425535487"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="dungeon_library_statue" ID="{695A3D88-FA00-435D-9EAE-9633ECBF7B0B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dungeon_library" ID="{9FE112A8-B52C-4102-AD84-06FF27BCB169}" ShortID="721874524">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0553CE12-6F1D-4F8B-99B3-381D30F298BC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D6AF423-2987-4F26-8C03-9353801E74B9}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Aux" ID="{B906269B-9288-4A6F-B4E9-D1FF3425281A}" WorkUnitID="{0D6AF423-2987-4F26-8C03-9353801E74B9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dungeon_library" ID="{3E5D2664-CE62-4CB5-AA49-A01B8DE6178A}">
+									<Language>SFX</Language>
+									<AudioFile>dungeon_library.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="402930154"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="dungeon_library" ID="{3E5D2664-CE62-4CB5-AA49-A01B8DE6178A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dungeon_forge" ID="{8F333F24-C4CA-4D5F-9E86-147CD3F2D02E}" ShortID="511063469">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0553CE12-6F1D-4F8B-99B3-381D30F298BC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D6AF423-2987-4F26-8C03-9353801E74B9}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Aux" ID="{B906269B-9288-4A6F-B4E9-D1FF3425281A}" WorkUnitID="{0D6AF423-2987-4F26-8C03-9353801E74B9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dungeon_forge" ID="{4799012E-6A6A-46F7-A586-462288A5DCD6}">
+									<Language>SFX</Language>
+									<AudioFile>dungeon_forge.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="846085955"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="dungeon_forge" ID="{4799012E-6A6A-46F7-A586-462288A5DCD6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dungeon_entrance" ID="{4A1D8F18-DF5E-445D-B9BA-F89E29A907DA}" ShortID="395716806">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0553CE12-6F1D-4F8B-99B3-381D30F298BC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D6AF423-2987-4F26-8C03-9353801E74B9}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Aux" ID="{B906269B-9288-4A6F-B4E9-D1FF3425281A}" WorkUnitID="{0D6AF423-2987-4F26-8C03-9353801E74B9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dungeon_entrance" ID="{58225F3F-9BA0-49EC-B1C0-D997468AE6C7}">
+									<Language>SFX</Language>
+									<AudioFile>dungeon_entrance.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1044485755"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="dungeon_entrance" ID="{58225F3F-9BA0-49EC-B1C0-D997468AE6C7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="cave_entrance" ID="{8C82346D-4C3B-481F-A0E6-305863181EC7}" ShortID="7681842">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0553CE12-6F1D-4F8B-99B3-381D30F298BC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D6AF423-2987-4F26-8C03-9353801E74B9}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Aux" ID="{B906269B-9288-4A6F-B4E9-D1FF3425281A}" WorkUnitID="{0D6AF423-2987-4F26-8C03-9353801E74B9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="cave_entrance" ID="{D9F81325-E043-468E-886E-E34738581989}">
+									<Language>SFX</Language>
+									<AudioFile>cave_entrance.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="842938486"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="cave_entrance" ID="{D9F81325-E043-468E-886E-E34738581989}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dungeon_mezzanine" ID="{03E644C4-74B3-4523-A48C-A544310EDD31}" ShortID="555267168">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0553CE12-6F1D-4F8B-99B3-381D30F298BC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D6AF423-2987-4F26-8C03-9353801E74B9}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Aux" ID="{B906269B-9288-4A6F-B4E9-D1FF3425281A}" WorkUnitID="{0D6AF423-2987-4F26-8C03-9353801E74B9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dungeon_mezzanine" ID="{84E58483-6201-4825-86DB-79062E5EB210}">
+									<Language>SFX</Language>
+									<AudioFile>dungeon_mezzanine.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="352845480"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="dungeon_mezzanine" ID="{84E58483-6201-4825-86DB-79062E5EB210}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

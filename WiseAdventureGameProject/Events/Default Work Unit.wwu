@@ -175,6 +175,50 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="UI_QuestRoll_show" ID="{058014CD-27D9-4374-96A3-928FEA3679CF}">
+									<ChildrenList>
+										<Action Name="" ID="{CF5FE0BA-1AF0-4CE1-919C-9CAD28BEE8E5}" ShortID="895824010">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="BAS_QuestRoll_Open" ID="{71207553-63B5-4BE3-B03A-8ABA9C06BCD7}" WorkUnitID="{AF0D20C8-2112-4F11-BD9E-0D6784296900}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="UI_QuestRoll_Open" ID="{5C2E7A85-5D86-4A96-8FBE-AD721C14A2B0}">
+									<ChildrenList>
+										<Action Name="" ID="{ECB2E235-1ED7-45D2-8F7E-945865ED0792}" ShortID="130570242">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="BAS_QuestRoll_Open" ID="{71207553-63B5-4BE3-B03A-8ABA9C06BCD7}" WorkUnitID="{AF0D20C8-2112-4F11-BD9E-0D6784296900}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="UI_QuestRoll_Close" ID="{9D4FBE7A-3940-4609-BE94-3E464C6B5225}">
+									<ChildrenList>
+										<Action Name="" ID="{EF1E47DB-49EC-49E6-BDF2-3ABE4706C331}" ShortID="498723620">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="BAS_QuestRoll_Close" ID="{41AB9FBD-8D39-4D15-862F-F06EA777EE2C}" WorkUnitID="{AF0D20C8-2112-4F11-BD9E-0D6784296900}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="UI_QuestRoll_Hide" ID="{DCE22747-0F53-495C-810C-DE767108866A}">
+									<ChildrenList>
+										<Action Name="" ID="{28FDA88D-8607-41F3-AEDD-A9AB3708AB53}" ShortID="393859292">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="BAS_QuestRoll_Close" ID="{41AB9FBD-8D39-4D15-862F-F06EA777EE2C}" WorkUnitID="{AF0D20C8-2112-4F11-BD9E-0D6784296900}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="3D_Emitters" ID="{571D4D92-FCFB-4CE1-A4E3-72E3EF54E09F}" ShortID="689939975">
@@ -380,6 +424,109 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Woodlands_Day_120BPM_4_4_L8M_P0" ID="{94A4E149-5476-4697-A2E4-D06A5A5C8E2D}" WorkUnitID="{AF0D20C8-2112-4F11-BD9E-0D6784296900}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="auxiliary" ID="{83E6D5BB-D718-4D30-95AD-6D7F4366490E}" ShortID="757208570">
+					<ChildrenList>
+						<Event Name="Dungeon_Core" ID="{BFBB8D17-3346-4E64-B5FF-CCA6A46D0358}">
+							<ChildrenList>
+								<Action Name="" ID="{82D4121D-4BC3-41C2-851D-5843FB28CF89}" ShortID="663809125">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dungeon_entrance" ID="{4A1D8F18-DF5E-445D-B9BA-F89E29A907DA}" WorkUnitID="{AF0D20C8-2112-4F11-BD9E-0D6784296900}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Dungeon_Entrance" ID="{52B41B55-ED9E-4E3C-9F13-ED2A25969BCF}">
+							<ChildrenList>
+								<Action Name="" ID="{025AB8F9-CEF2-4F4C-9E3B-9B73A1A94B32}" ShortID="968819718">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dungeon_entrance" ID="{4A1D8F18-DF5E-445D-B9BA-F89E29A907DA}" WorkUnitID="{AF0D20C8-2112-4F11-BD9E-0D6784296900}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Dungeon_Forge" ID="{43540520-56D0-4037-8033-7226ECFBDEB7}">
+							<ChildrenList>
+								<Action Name="" ID="{4FFB93F6-58E6-4CB6-9B5E-083AF5717704}" ShortID="936762175">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dungeon_forge" ID="{8F333F24-C4CA-4D5F-9E86-147CD3F2D02E}" WorkUnitID="{AF0D20C8-2112-4F11-BD9E-0D6784296900}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Dungeon_Library" ID="{E9161142-2F33-4035-9583-7F888B99F209}">
+							<ChildrenList>
+								<Action Name="" ID="{7021EC22-299D-404D-8441-79BF700C864C}" ShortID="447241126">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dungeon_library" ID="{9FE112A8-B52C-4102-AD84-06FF27BCB169}" WorkUnitID="{AF0D20C8-2112-4F11-BD9E-0D6784296900}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Dungeon_Library_Statue" ID="{A67F1C41-AB02-46E7-824E-B450BFDCDE94}">
+							<ChildrenList>
+								<Action Name="" ID="{5315EAB0-C2CC-462D-99DE-A7180B8BBB58}" ShortID="830520847">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dungeon_library_statue" ID="{53CF46FE-EED7-4C1C-A1C2-F426FBCC0C8E}" WorkUnitID="{AF0D20C8-2112-4F11-BD9E-0D6784296900}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Dungeon_MezzanineRoom" ID="{EB6E4579-2C2F-4D66-AE7A-1B438AD62598}">
+							<ChildrenList>
+								<Action Name="" ID="{CAE63E61-6BE2-4E3C-BECC-DA39F1BE08C1}" ShortID="169207507">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dungeon_mezzanine" ID="{03E644C4-74B3-4523-A48C-A544310EDD31}" WorkUnitID="{AF0D20C8-2112-4F11-BD9E-0D6784296900}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Dungeon_MezzanineRoomEntrance" ID="{57E63085-8180-4B4A-B8ED-5F7E0F60362E}">
+							<ChildrenList>
+								<Action Name="" ID="{BC311531-E392-4DD1-952C-0E775B2A61DB}" ShortID="701396911">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dungeon_mezzanine" ID="{03E644C4-74B3-4523-A48C-A544310EDD31}" WorkUnitID="{AF0D20C8-2112-4F11-BD9E-0D6784296900}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Dungeon_PathToForge" ID="{DCB35C34-7D8E-4D7C-A9CD-F7F5050BE4A4}">
+							<ChildrenList>
+								<Action Name="" ID="{5CC31928-D334-4ACD-A8CE-3E572176BECA}" ShortID="704750682">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Dungeon_PathToForge" ID="{5F6AB717-BB23-42E2-A0E4-FAA96C96BA41}" WorkUnitID="{AF0D20C8-2112-4F11-BD9E-0D6784296900}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Dungeon_RoadToCore" ID="{ABC81FA2-FBCD-4C39-ACC8-1DE05E4F144E}">
+							<ChildrenList>
+								<Action Name="" ID="{41863E18-0AC6-46E9-9117-66BAD36F5FE0}" ShortID="819519137">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dungeon_mezzanine" ID="{03E644C4-74B3-4523-A48C-A544310EDD31}" WorkUnitID="{AF0D20C8-2112-4F11-BD9E-0D6784296900}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

@@ -9,12 +9,21 @@
 			<ChildrenList>
 				<SoundBank Name="General" ID="{B4D21642-554B-4320-BF46-A7C563A90807}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Dungeon_Library" ID="{E9161142-2F33-4035-9583-7F888B99F209}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Dungeon_Forge" ID="{43540520-56D0-4037-8033-7226ECFBDEB7}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Player_Health" ID="{AB03778A-7C7E-435B-A3F6-D22A5D5A6C0F}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Player_Hurt_Vox" ID="{74E5F53B-FAB0-459C-9A18-01B14CAB4882}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Dungeon_Library_Statue" ID="{A67F1C41-AB02-46E7-824E-B450BFDCDE94}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Player_Footstep" ID="{C286D273-0108-49B3-8390-4C578FF7EF8E}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Destruction_Container" ID="{EEF16D41-B7E5-4ABB-B059-B1A831AE1BBE}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Music_Region" ID="{35BB49B2-E953-4B3E-B576-BD8CF5058F52}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Dungeon_MezzanineRoomEntrance" ID="{57E63085-8180-4B4A-B8ED-5F7E0F60362E}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Player_WeaponImpact" ID="{DF048A2A-2697-4C28-802C-92439F4529E3}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Dungeon_RoadToCore" ID="{ABC81FA2-FBCD-4C39-ACC8-1DE05E4F144E}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Dungeon_MezzanineRoom" ID="{EB6E4579-2C2F-4D66-AE7A-1B438AD62598}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Dungeon_PathToForge" ID="{DCB35C34-7D8E-4D7C-A9CD-F7F5050BE4A4}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Dungeon_Entrance" ID="{52B41B55-ED9E-4E3C-9F13-ED2A25969BCF}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Dungeon_Core" ID="{BFBB8D17-3346-4E64-B5FF-CCA6A46D0358}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Pickup_ItemType" ID="{A11C755E-82AC-4F00-9D4D-79D66E25CE1D}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
@@ -27,11 +36,18 @@
 				</SoundBank>
 				<SoundBank Name="TitleScreen" ID="{F7BB7C01-48E1-48E5-BC4E-0693E62C6AAA}">
 					<ObjectInclusionList>
+						<ObjectRef Name="UI_Inventory_Close" ID="{AA8ABCFA-90A7-415F-A55E-38F54BA2F446}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UI_Button_Enter" ID="{F0522E0B-4BD8-4163-920A-D27ED52A46AF}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_QuestRoll_show" ID="{058014CD-27D9-4374-96A3-928FEA3679CF}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UI_Button_Exit" ID="{92FC4DF5-E88E-440E-B02B-C1007B5B7157}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UI_Button_Down" ID="{9EC0A051-3C36-446E-841C-334688151A46}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_QuestRoll_Close" ID="{9D4FBE7A-3940-4609-BE94-3E464C6B5225}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Inventory_Roll" ID="{0DCDB42A-96F5-4775-9327-B09E4CC3FF2C}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UI_Button_Up" ID="{0581DBCE-0387-48AC-A244-D6F35627335B}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_QuestRoll_Hide" ID="{DCE22747-0F53-495C-810C-DE767108866A}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UI_Menu_Teleport" ID="{B2359805-8777-49BB-8D87-1DAC5F49F97F}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_QuestRoll_Open" ID="{5C2E7A85-5D86-4A96-8FBE-AD721C14A2B0}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Inventory_Open" ID="{1A25E762-AC7C-4FD0-985E-9185AEA0AF05}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

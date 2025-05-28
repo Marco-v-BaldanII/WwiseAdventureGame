@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="133642231" Language="SFX" Hash="3150406978">
+		<SoundBank Id="133642231" Language="SFX" Hash="3391955047">
 			<ObjectPath>\SoundBanks\Default Work Unit\General\General</ObjectPath>
 			<ShortName>General</ShortName>
 			<Path>General.bnk</Path>
@@ -67,6 +67,105 @@
 							<Path>SFX\BAS_Crate_Destroy\BAS_Crate_Destroy_03_0F1A56F8.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2213850905" Name="Dungeon_Core" ObjectPath="\Events\Default Work Unit\auxiliary\Dungeon_Core">
+					<IncludedMemoryFiles>
+						<File Id="1044485755" Language="SFX">
+							<ShortName>dungeon_entrance.wav</ShortName>
+							<Path>SFX\dungeon_entrance_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="4122393694" Name="Cave" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Cave"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="1156828694" Name="Dungeon_Entrance" ObjectPath="\Events\Default Work Unit\auxiliary\Dungeon_Entrance">
+					<IncludedMemoryFiles>
+						<File Id="1044485755" Language="SFX">
+							<ShortName>dungeon_entrance.wav</ShortName>
+							<Path>SFX\dungeon_entrance_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="4122393694" Name="Cave" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Cave"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="243931001" Name="Dungeon_Forge" ObjectPath="\Events\Default Work Unit\auxiliary\Dungeon_Forge">
+					<IncludedMemoryFiles>
+						<File Id="846085955" Language="SFX">
+							<ShortName>dungeon_forge.wav</ShortName>
+							<Path>SFX\dungeon_forge_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="4122393694" Name="Cave" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Cave"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="1941785149" Name="Dungeon_Library" ObjectPath="\Events\Default Work Unit\auxiliary\Dungeon_Library">
+					<IncludedMemoryFiles>
+						<File Id="402930154" Language="SFX">
+							<ShortName>dungeon_library.wav</ShortName>
+							<Path>SFX\dungeon_library_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="4122393694" Name="Cave" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Cave"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="425911480" Name="Dungeon_Library_Statue" ObjectPath="\Events\Default Work Unit\auxiliary\Dungeon_Library_Statue">
+					<IncludedMemoryFiles>
+						<File Id="425535487" Language="SFX">
+							<ShortName>dungeon_library_statue.wav</ShortName>
+							<Path>SFX\dungeon_library_statue_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="4122393694" Name="Cave" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Cave"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="4158999182" Name="Dungeon_MezzanineRoom" ObjectPath="\Events\Default Work Unit\auxiliary\Dungeon_MezzanineRoom">
+					<IncludedMemoryFiles>
+						<File Id="352845480" Language="SFX">
+							<ShortName>dungeon_mezzanine.wav</ShortName>
+							<Path>SFX\dungeon_mezzanine_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="4122393694" Name="Cave" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Cave"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="2026127448" Name="Dungeon_MezzanineRoomEntrance" ObjectPath="\Events\Default Work Unit\auxiliary\Dungeon_MezzanineRoomEntrance">
+					<IncludedMemoryFiles>
+						<File Id="352845480" Language="SFX">
+							<ShortName>dungeon_mezzanine.wav</ShortName>
+							<Path>SFX\dungeon_mezzanine_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="4122393694" Name="Cave" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Cave"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="567469275" Name="Dungeon_PathToForge" ObjectPath="\Events\Default Work Unit\auxiliary\Dungeon_PathToForge">
+					<IncludedMemoryFiles>
+						<File Id="834508204" Language="SFX">
+							<ShortName>Dungeon_PathToForge.wav</ShortName>
+							<Path>SFX\Dungeon_PathToForge_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="4122393694" Name="Cave" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Cave"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="2106540524" Name="Dungeon_RoadToCore" ObjectPath="\Events\Default Work Unit\auxiliary\Dungeon_RoadToCore">
+					<IncludedMemoryFiles>
+						<File Id="352845480" Language="SFX">
+							<ShortName>dungeon_mezzanine.wav</ShortName>
+							<Path>SFX\dungeon_mezzanine_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="4122393694" Name="Cave" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Cave"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="3741135221" Name="Music_Region" ObjectPath="\Events\Default Work Unit\music\Music_Region">
 					<IncludedMemoryFiles>
@@ -660,6 +759,9 @@
 							</Children>
 						</SwitchContainer>
 					</SwitchContainers>
+					<AuxBusSends>
+						<AuxBus Id="4122393694" Name="Cave" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Cave"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="215992295" Name="Player_Health" ObjectPath="\Events\Default Work Unit\sfx\Player_Health">
 					<IncludedMemoryFiles>
@@ -1121,7 +1223,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="152105657" Language="SFX" Hash="2484859968">
+		<SoundBank Id="152105657" Language="SFX" Hash="3943313136">
 			<ObjectPath>\SoundBanks\Default Work Unit\General\TitleScreen</ObjectPath>
 			<ShortName>TitleScreen</ShortName>
 			<Path>TitleScreen.bnk</Path>
@@ -1158,11 +1260,67 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="2278290679" Name="UI_Inventory_Close" ObjectPath="\Events\Default Work Unit\sfx\UI\UI_Inventory_Close">
+					<IncludedMemoryFiles>
+						<File Id="645060803" Language="SFX">
+							<ShortName>UI\BAS_Inventory_Close.wav</ShortName>
+							<Path>SFX\UI\BAS_Inventory_Close_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2199611969" Name="UI_Inventory_Open" ObjectPath="\Events\Default Work Unit\sfx\UI\UI_Inventory_Open">
+					<IncludedMemoryFiles>
+						<File Id="851464837" Language="SFX">
+							<ShortName>UI\BAS_Inventory_Open.wav</ShortName>
+							<Path>SFX\UI\BAS_Inventory_Open_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3749307760" Name="UI_Inventory_Roll" ObjectPath="\Events\Default Work Unit\sfx\UI\UI_Inventory_Roll">
+					<IncludedMemoryFiles>
+						<File Id="920352000" Language="SFX">
+							<ShortName>UI\BAS_Inventory_Scroll.wav</ShortName>
+							<Path>SFX\UI\BAS_Inventory_Scroll_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="750089663" Name="UI_Menu_Teleport" ObjectPath="\Events\Default Work Unit\sfx\UI\UI_Menu_Teleport">
 					<IncludedMemoryFiles>
 						<File Id="747454916" Language="SFX">
 							<ShortName>BAS_Button_Teleport.wav</ShortName>
 							<Path>SFX\BAS_Button_Teleport_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="808893336" Name="UI_QuestRoll_Close" ObjectPath="\Events\Default Work Unit\sfx\UI\UI_QuestRoll_Close">
+					<IncludedMemoryFiles>
+						<File Id="702944549" Language="SFX">
+							<ShortName>UI\BAS_QuestRoll_Close.wav</ShortName>
+							<Path>SFX\UI\BAS_QuestRoll_Close_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2792117052" Name="UI_QuestRoll_Hide" ObjectPath="\Events\Default Work Unit\sfx\UI\UI_QuestRoll_Hide">
+					<IncludedMemoryFiles>
+						<File Id="702944549" Language="SFX">
+							<ShortName>UI\BAS_QuestRoll_Close.wav</ShortName>
+							<Path>SFX\UI\BAS_QuestRoll_Close_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="949395292" Name="UI_QuestRoll_Open" ObjectPath="\Events\Default Work Unit\sfx\UI\UI_QuestRoll_Open">
+					<IncludedMemoryFiles>
+						<File Id="643510546" Language="SFX">
+							<ShortName>UI\BAS_QuestRoll_Open.wav</ShortName>
+							<Path>SFX\UI\BAS_QuestRoll_Open_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3699139167" Name="UI_QuestRoll_show" ObjectPath="\Events\Default Work Unit\sfx\UI\UI_QuestRoll_show">
+					<IncludedMemoryFiles>
+						<File Id="643510546" Language="SFX">
+							<ShortName>UI\BAS_QuestRoll_Open.wav</ShortName>
+							<Path>SFX\UI\BAS_QuestRoll_Open_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -1191,10 +1349,13 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="3131342684">
+		<SoundBank Id="1355168291" Language="SFX" Hash="3523052047">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
+			<IncludedAuxBusses>
+				<AuxBus Id="4122393694" Name="Cave" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Cave"/>
+			</IncludedAuxBusses>
 			<GameParameters>
 				<GameParameter Id="1333239961" Name="MenuSlider_Master_Volume" ObjectPath="\Game Parameters\Default Work Unit\MenuSlider_Master_Volume"/>
 				<GameParameter Id="2642438544" Name="MenuSlider_Music_Volume" ObjectPath="\Game Parameters\Default Work Unit\MenuSlider_Music_Volume"/>

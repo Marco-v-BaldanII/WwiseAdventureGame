@@ -3,7 +3,8 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{AECFAAD5-D735-4A10-A750-57B7BAF35811}">
 			<PropertyList>
-				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\marco\OneDrive\Documentos\GitHub\WwiseAdventureGame\WAG Originals\Music\Explore\"/>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\marco\Downloads\"/>
+				<Property Name="Event Action List\{058014CD-27D9-4374-96A3-928FEA3679CF}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{0581DBCE-0387-48AC-A244-D6F35627335B}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{091CDF20-D05E-4040-9BBA-A02DD6773D65}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{0DCDB42A-96F5-4775-9327-B09E4CC3FF2C}\x64_Expand States" Type="string" Value=""/>
@@ -16,31 +17,43 @@
 				<Property Name="Event Action List\{2FD699D2-8095-4922-8D25-57323D518ABD}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{35BB49B2-E953-4B3E-B576-BD8CF5058F52}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{41B99023-9FF0-42BC-A6FC-0E0C327DBEC6}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{43540520-56D0-4037-8033-7226ECFBDEB7}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{491D9A55-D2E5-4B2B-A0C1-1148D58C5087}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{50F8358A-D4B2-4F69-81DC-F8826C453B0A}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{52B41B55-ED9E-4E3C-9F13-ED2A25969BCF}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{57E63085-8180-4B4A-B8ED-5F7E0F60362E}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{5C2E7A85-5D86-4A96-8FBE-AD721C14A2B0}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{7170466C-D247-4D34-B287-3544669EB812}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{74E5F53B-FAB0-459C-9A18-01B14CAB4882}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{81702FEF-E4C1-4B55-B9E0-EBA8FBFDF567}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{8961AFB6-8C4D-4CE4-B1E0-E212B3CA0068}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{92FC4DF5-E88E-440E-B02B-C1007B5B7157}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{9BEB1DC2-6517-4E54-985B-1F3F06CE7F05}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{9D4FBE7A-3940-4609-BE94-3E464C6B5225}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{9E400329-6ECD-49B7-AE18-1B05938AF2FE}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{9EC0A051-3C36-446E-841C-334688151A46}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{A11C755E-82AC-4F00-9D4D-79D66E25CE1D}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{A2E3B613-ECDC-48A7-9C9F-F5A0053245FF}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{A67F1C41-AB02-46E7-824E-B450BFDCDE94}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{A6D1FC0F-11CF-4D0F-BC98-69861D1E76ED}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{AA8ABCFA-90A7-415F-A55E-38F54BA2F446}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{AB03778A-7C7E-435B-A3F6-D22A5D5A6C0F}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{ABC81FA2-FBCD-4C39-ACC8-1DE05E4F144E}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{B2359805-8777-49BB-8D87-1DAC5F49F97F}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{BA559431-7FD4-4193-A1EB-3B7EE7F70E36}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{BA5F5E1F-E47B-4096-8D1E-C45EDFB398E5}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{BFBB8D17-3346-4E64-B5FF-CCA6A46D0358}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{C286D273-0108-49B3-8390-4C578FF7EF8E}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{C4F7DDE0-A2E9-4713-9261-E82E0BA221DC}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{CF2A39DF-B926-4C27-B992-4994C343979E}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{D7B73127-708D-4C4F-BA6D-2636C4292224}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{DCB35C34-7D8E-4D7C-A9CD-F7F5050BE4A4}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{DCE22747-0F53-495C-810C-DE767108866A}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{DF048A2A-2697-4C28-802C-92439F4529E3}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{E37E7CE8-92F2-47D9-B322-730ADFFF0666}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{E4460F3B-24B8-4ED6-BDAE-8EC4E0141C7F}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{E9161142-2F33-4035-9583-7F888B99F209}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{EB6E4579-2C2F-4D66-AE7A-1B438AD62598}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{EE6066A9-D49B-4B5D-A139-3004AB124744}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{EEF16D41-B7E5-4ABB-B059-B1A831AE1BBE}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{F0522E0B-4BD8-4163-920A-D27ED52A46AF}\x64_Expand States" Type="string" Value=""/>
