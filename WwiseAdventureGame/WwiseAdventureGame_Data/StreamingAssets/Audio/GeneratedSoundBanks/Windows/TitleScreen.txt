@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	156563189	UI_Button_Down			\Default Work Unit\sfx\UI\UI_Button_Down	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	520613417	BAS_Button_Enter	C:\Users\marco\OneDrive\Documentos\GitHub\WwiseAdventureGame\WiseAdventureGameProject\.cache\Windows\SFX\BAS_Button_Enter_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BAS_Button_Enter		117424
+

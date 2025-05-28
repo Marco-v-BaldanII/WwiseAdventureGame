@@ -74,6 +74,32 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Destruction_Container" ID="{EEF16D41-B7E5-4ABB-B059-B1A831AE1BBE}">
+							<ChildrenList>
+								<Action Name="" ID="{A891C649-C76E-40AC-B17D-45E514386920}" ShortID="490275435">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BAS_Crate_Destroy" ID="{FDAEFF26-EE67-49A6-B9A8-F9A0D8AC0CDA}" WorkUnitID="{AF0D20C8-2112-4F11-BD9E-0D6784296900}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Folder Name="UI" ID="{2ACDAB1B-0A93-41C4-AE20-CF85C2700163}" ShortID="93771939">
+							<ChildrenList>
+								<Event Name="UI_Button_Down" ID="{9EC0A051-3C36-446E-841C-334688151A46}">
+									<ChildrenList>
+										<Action Name="" ID="{A279A357-DC68-453B-A2BF-4F5D8161B64E}" ShortID="117835985">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="BAS_Button_Enter" ID="{B11486BB-47FD-4346-A37B-4ED6B0916415}" WorkUnitID="{AF0D20C8-2112-4F11-BD9E-0D6784296900}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

@@ -3,7 +3,7 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{AECFAAD5-D735-4A10-A750-57B7BAF35811}">
 			<PropertyList>
-				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\marco\Downloads\"/>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\marco\OneDrive\Documentos\GitHub\WwiseAdventureGame\WAG Originals\UI\"/>
 				<Property Name="Event Action List\{091CDF20-D05E-4040-9BBA-A02DD6773D65}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{2D500F73-C4AB-481C-91EC-385D8386AFCA}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{2FD699D2-8095-4922-8D25-57323D518ABD}\x64_Expand States" Type="string" Value=""/>
@@ -12,6 +12,7 @@
 				<Property Name="Event Action List\{7170466C-D247-4D34-B287-3544669EB812}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{74E5F53B-FAB0-459C-9A18-01B14CAB4882}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{81702FEF-E4C1-4B55-B9E0-EBA8FBFDF567}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{9EC0A051-3C36-446E-841C-334688151A46}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{A11C755E-82AC-4F00-9D4D-79D66E25CE1D}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{A2E3B613-ECDC-48A7-9C9F-F5A0053245FF}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{AB03778A-7C7E-435B-A3F6-D22A5D5A6C0F}\x64_Expand States" Type="string" Value=""/>
@@ -20,6 +21,7 @@
 				<Property Name="Event Action List\{CF2A39DF-B926-4C27-B992-4994C343979E}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{DF048A2A-2697-4C28-802C-92439F4529E3}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{E37E7CE8-92F2-47D9-B322-730ADFFF0666}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{EEF16D41-B7E5-4ABB-B059-B1A831AE1BBE}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
@@ -37,7 +39,7 @@
 				<Property Name="General\SourceControlPluginID" Type="string" Value="{C403A906-0C19-4ED5-808E-748707065301}"/>
 				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value=""/>
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value=""/>
-				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="QhbStEtVIEO/RqfFY6kIBw=="/>
+				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="QhbStEtVIEO/RqfFY6kIBwF8u/fhSOVIvE4Gk+Ysaqo="/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
