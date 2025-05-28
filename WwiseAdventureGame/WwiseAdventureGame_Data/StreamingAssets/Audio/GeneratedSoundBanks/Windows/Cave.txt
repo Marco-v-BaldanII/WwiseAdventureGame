@@ -1,0 +1,15 @@
+Event	ID	Name			Wwise Object Path	Notes
+	448719855	Destruction_Crystal_Destroy			\Default Work Unit\sfx\3D_Emitters\Cave\Destruction_Crystal_Destroy	
+	1331382810	Ambient_Region_Cave			\Default Work Unit\sfx\3D_Emitters\Cave\Ambient_Region_Cave	
+	2644063196	Ambient_WaterDrop			\Default Work Unit\sfx\3D_Emitters\Cave\Ambient_WaterDrop	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	220606541	BAS_amb_cave_background_LP	C:\Users\marco\OneDrive\Documentos\GitHub\WwiseAdventureGame\WiseAdventureGameProject\.cache\Windows\SFX\BAS_amb_cave_background_LP_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\Cave\BAS_amb_cave_background_LP		14786860
+	236822830	BAS_WaterDrops_06	C:\Users\marco\OneDrive\Documentos\GitHub\WwiseAdventureGame\WiseAdventureGameProject\.cache\Windows\SFX\Ambient_Emitters\BAS_WaterDrops_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\Cave\Ambient_Water_Drop\BAS_WaterDrops_06		77824
+	266657430	BAS_WaterDrops_05	C:\Users\marco\OneDrive\Documentos\GitHub\WwiseAdventureGame\WiseAdventureGameProject\.cache\Windows\SFX\Ambient_Emitters\BAS_WaterDrops_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\Cave\Ambient_Water_Drop\BAS_WaterDrops_05		43264
+	476964782	BAS_Crystals_Destroy	C:\Users\marco\OneDrive\Documentos\GitHub\WwiseAdventureGame\WiseAdventureGameProject\.cache\Windows\SFX\BAS_Crystals_Destroy_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\Cave\BAS_Crystals_Destroy		191776
+	507887225	BAS_WaterDrops_03	C:\Users\marco\OneDrive\Documentos\GitHub\WwiseAdventureGame\WiseAdventureGameProject\.cache\Windows\SFX\Ambient_Emitters\BAS_WaterDrops_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\Cave\Ambient_Water_Drop\BAS_WaterDrops_03		51264
+	610309935	BAS_WaterDrops_04	C:\Users\marco\OneDrive\Documentos\GitHub\WwiseAdventureGame\WiseAdventureGameProject\.cache\Windows\SFX\Ambient_Emitters\BAS_WaterDrops_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\Cave\Ambient_Water_Drop\BAS_WaterDrops_04		57408
+	772016941	BAS_WaterDrops_01	C:\Users\marco\OneDrive\Documentos\GitHub\WwiseAdventureGame\WiseAdventureGameProject\.cache\Windows\SFX\Ambient_Emitters\BAS_WaterDrops_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\Cave\Ambient_Water_Drop\BAS_WaterDrops_01		28736
+	886734387	BAS_WaterDrops_02	C:\Users\marco\OneDrive\Documentos\GitHub\WwiseAdventureGame\WiseAdventureGameProject\.cache\Windows\SFX\Ambient_Emitters\BAS_WaterDrops_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\Cave\Ambient_Water_Drop\BAS_WaterDrops_02		38976
+

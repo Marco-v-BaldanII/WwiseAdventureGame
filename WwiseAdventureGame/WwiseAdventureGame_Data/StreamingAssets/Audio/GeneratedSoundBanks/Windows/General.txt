@@ -3,6 +3,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	509318909	Pickup_ItemType			\Default Work Unit\sfx\Pickup_ItemType	
 	2453392179	Player_Footstep			\Default Work Unit\sfx\Player_Footstep	
 	3695342915	Player_WeaponImpact			\Default Work Unit\sfx\Player_WeaponImpact	
+	3741135221	Music_Region			\Default Work Unit\music\Music_Region	
 	3842195348	Player_Hurt_Vox			\Default Work Unit\sfx\Player_Hurt_Vox	
 	4254124015	Destruction_Container			\Default Work Unit\sfx\Destruction_Container	
 
@@ -140,6 +141,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	724315010	BAS_Player_Footstep_wood_walk_05	C:\Users\marco\OneDrive\Documentos\GitHub\WwiseAdventureGame\WiseAdventureGameProject\.cache\Windows\SFX\Walk\Wood\BAS_Player_Footstep_wood_walk_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Footstep\Walk\Wood\BAS_Player_Footstep_wood_walk_05		47378
 	729025171	BAS_Player_Footstep_dirt_run_06	C:\Users\marco\OneDrive\Documentos\GitHub\WwiseAdventureGame\WiseAdventureGameProject\.cache\Windows\SFX\Run\Dirt\BAS_Player_Footstep_dirt_run_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Footstep\Run\Dirt\BAS_Player_Footstep_dirt_run_06		25896
 	732735566	BAS_Impact_Hammer_SurfaceType_Barrel	C:\Users\marco\OneDrive\Documentos\GitHub\WwiseAdventureGame\WiseAdventureGameProject\.cache\Windows\SFX\Impacts\Hammer\BAS_Impact_Hammer_SurfaceType_Barrel_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Impacts\Hammer\BAS_Impact_Hammer_SurfaceType_Barrel		100650
+	739492420	Woodlands_Day_120BPM_4_4_L8M_P0	C:\Users\marco\OneDrive\Documentos\GitHub\WwiseAdventureGame\WiseAdventureGameProject\.cache\Windows\SFX\Woodlands_Day_120BPM_4_4_L8M_P0_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Woodlands_Day_120BPM_4_4_L8M_P0		3840144
 	746719945	BAS_Player_Footstep_sand_walk_01	C:\Users\marco\OneDrive\Documentos\GitHub\WwiseAdventureGame\WiseAdventureGameProject\.cache\Windows\SFX\Walk\Sand\BAS_Player_Footstep_sand_walk_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Footstep\Walk\Sand\BAS_Player_Footstep_sand_walk_01		40886
 	759969559	BAS_Pickup_Book_01	C:\Users\marco\OneDrive\Documentos\GitHub\WwiseAdventureGame\WiseAdventureGameProject\.cache\Windows\SFX\Pickups\Items\BAS_Pickup_Book_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\pickups\Items\BAS_Pickup_Book_01		51366
 	777442607	BAS_Player_Footstep_sand_run_03	C:\Users\marco\OneDrive\Documentos\GitHub\WwiseAdventureGame\WiseAdventureGameProject\.cache\Windows\SFX\Run\Sand\BAS_Player_Footstep_sand_run_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Footstep\Run\Sand\BAS_Player_Footstep_sand_run_03		29132

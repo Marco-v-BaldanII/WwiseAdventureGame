@@ -13,6 +13,7 @@
 						<ObjectRef Name="Player_Hurt_Vox" ID="{74E5F53B-FAB0-459C-9A18-01B14CAB4882}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Player_Footstep" ID="{C286D273-0108-49B3-8390-4C578FF7EF8E}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Destruction_Container" ID="{EEF16D41-B7E5-4ABB-B059-B1A831AE1BBE}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music_Region" ID="{35BB49B2-E953-4B3E-B576-BD8CF5058F52}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Player_WeaponImpact" ID="{DF048A2A-2697-4C28-802C-92439F4529E3}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Pickup_ItemType" ID="{A11C755E-82AC-4F00-9D4D-79D66E25CE1D}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>

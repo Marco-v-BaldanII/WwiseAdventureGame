@@ -10,6 +10,12 @@
 				</GameParameter>
 				<GameParameter Name="MenuSlider_Master_Volume" ID="{A1C852B4-69A7-44DD-8E9D-CCF78DDEBD5B}"/>
 				<GameParameter Name="MenuSlider_Music_Volume" ID="{EACC7C66-3042-41B4-B1E3-291BC1AAE55A}"/>
+				<GameParameter Name="Time_of_Day" ID="{BCD08FD0-2E77-4771-B8D0-11F2754D4DDE}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="24"/>
+					</PropertyList>
+				</GameParameter>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

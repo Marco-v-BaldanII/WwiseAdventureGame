@@ -3,8 +3,12 @@ Event	ID	Name			Wwise Object Path	Notes
 	2258053876	Ambient_River			\Default Work Unit\sfx\3D_Emitters\Village\Ambient_River	
 	2752753183	Ambient_Region_Village			\Default Work Unit\sfx\3D_Emitters\Village\Ambient_Region_Village	
 
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	207908541	Time_of_Day			\Default Work Unit\Time_of_Day	
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	101033904	BAS_WindMillBlade_02	C:\Users\marco\OneDrive\Documentos\GitHub\WwiseAdventureGame\WiseAdventureGameProject\.cache\Windows\SFX\Ambient_Emitters\BAS_WindMillBlade_02_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\Village\BAS_WindMillBlade_02		1163328
-	230465007	BAS_Water_River	C:\Users\marco\OneDrive\Documentos\GitHub\WwiseAdventureGame\WiseAdventureGameProject\.cache\Windows\SFX\Ambient_Emitters\BAS_Water_River_786CC497.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\Village\BAS_Water_River		3072208
-	704487103	BAS_amb_village_day_background_loop_01	C:\Users\marco\OneDrive\Documentos\GitHub\WwiseAdventureGame\WiseAdventureGameProject\.cache\Windows\SFX\BAS_amb_village_day_background_loop_01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\Village\BAS_amb_village_day_background_loop_01		28801088
+	212861345	BAS_amb_desert_day_background_loop_01	C:\Users\marco\OneDrive\Documentos\GitHub\WwiseAdventureGame\WiseAdventureGameProject\.cache\Windows\SFX\BAS_amb_desert_day_background_loop_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\Desert\BAS_amb_desert_day_background_loop_01		21299264
+	230465007	BAS_Water_River	C:\Users\marco\OneDrive\Documentos\GitHub\WwiseAdventureGame\WiseAdventureGameProject\.cache\Windows\SFX\Ambient_Emitters\BAS_Water_River_E5095378.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\Village\BAS_Water_River		3072208
+	829973408	BAS_amb_village_night_background_loop_01	C:\Users\marco\OneDrive\Documentos\GitHub\WwiseAdventureGame\WiseAdventureGameProject\.cache\Windows\SFX\BAS_amb_village_night_background_loop_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\Village\BAS_amb_village_night_background_loop_01		23457856
 

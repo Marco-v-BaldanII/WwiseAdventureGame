@@ -4,12 +4,19 @@
 		<WorkUnit Name="Region" ID="{5B1CE7D2-6F1E-423D-B5A4-D9437D640A20}" OwnerID="{B3D1A810-BC0B-491B-8242-DC900F295148}" PersistMode="Nested">
 			<ChildrenList>
 				<SoundBank Name="Cave" ID="{BEEC3C6F-0727-4C99-B0BF-8ECFDB2052AE}">
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="Ambient_Region_Cave" ID="{C4F7DDE0-A2E9-4713-9261-E82E0BA221DC}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Destruction_Crystal_Destroy" ID="{E4460F3B-24B8-4ED6-BDAE-8EC4E0141C7F}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambient_WaterDrop" ID="{50F8358A-D4B2-4F69-81DC-F8826C453B0A}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
 				<SoundBank Name="Desert" ID="{6784F8CE-BD86-46DD-9A5E-22E80921F503}">
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="Destruction_VolcanicBoulder_Impact" ID="{D7B73127-708D-4C4F-BA6D-2636C4292224}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambient_Region_Desert" ID="{9BEB1DC2-6517-4E54-985B-1F3F06CE7F05}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
