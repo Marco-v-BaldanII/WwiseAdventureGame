@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="133642231" Language="SFX" Hash="63151301">
+		<SoundBank Id="133642231" Language="SFX" Hash="3749445388">
 			<ObjectPath>\SoundBanks\Default Work Unit\General\General</ObjectPath>
 			<ShortName>General</ShortName>
 			<Path>General.bnk</Path>
@@ -20,51 +20,51 @@
 					<IncludedMemoryFiles>
 						<File Id="84264446" Language="SFX">
 							<ShortName>BAS_Crate_Destroy\BAS_Crate_Destroy_06.wav</ShortName>
-							<Path>SFX\BAS_Crate_Destroy\BAS_Crate_Destroy_06_0F137109.wem</Path>
+							<Path>SFX\BAS_Crate_Destroy\BAS_Crate_Destroy_06_ACC4E17A.wem</Path>
 						</File>
 						<File Id="153428522" Language="SFX">
 							<ShortName>BAS_Crate_Destroy\BAS_Crate_Destroy_01.wav</ShortName>
-							<Path>SFX\BAS_Crate_Destroy\BAS_Crate_Destroy_01_96E64949.wem</Path>
+							<Path>SFX\BAS_Crate_Destroy\BAS_Crate_Destroy_01_3B9AFB3C.wem</Path>
 						</File>
 						<File Id="215329625" Language="SFX">
 							<ShortName>BAS_Crate_Destroy\BAS_Crate_Destroy_05.wav</ShortName>
-							<Path>SFX\BAS_Crate_Destroy\BAS_Crate_Destroy_05_3720F765.wem</Path>
+							<Path>SFX\BAS_Crate_Destroy\BAS_Crate_Destroy_05_F770C1AD.wem</Path>
 						</File>
 						<File Id="216359747" Language="SFX">
 							<ShortName>BAS_Crate_Destroy\BAS_Crate_Destroy_02.wav</ShortName>
-							<Path>SFX\BAS_Crate_Destroy\BAS_Crate_Destroy_02_0E09AC83.wem</Path>
+							<Path>SFX\BAS_Crate_Destroy\BAS_Crate_Destroy_02_3D66FA50.wem</Path>
 						</File>
 						<File Id="241690303" Language="SFX">
 							<ShortName>BAS_Crate_Destroy\BAS_Crate_Destroy_05.wav</ShortName>
-							<Path>SFX\BAS_Crate_Destroy\BAS_Crate_Destroy_05_BA45ED17.wem</Path>
+							<Path>SFX\BAS_Crate_Destroy\BAS_Crate_Destroy_05_40FA7B55.wem</Path>
 						</File>
 						<File Id="260517193" Language="SFX">
 							<ShortName>BAS_Crate_Destroy\BAS_Crate_Destroy_02.wav</ShortName>
-							<Path>SFX\BAS_Crate_Destroy\BAS_Crate_Destroy_02_01760FB5.wem</Path>
+							<Path>SFX\BAS_Crate_Destroy\BAS_Crate_Destroy_02_61A3CB8F.wem</Path>
 						</File>
 						<File Id="433049695" Language="SFX">
 							<ShortName>BAS_Crate_Destroy\BAS_Crate_Destroy_01.wav</ShortName>
-							<Path>SFX\BAS_Crate_Destroy\BAS_Crate_Destroy_01_A3B84D4B.wem</Path>
+							<Path>SFX\BAS_Crate_Destroy\BAS_Crate_Destroy_01_F576CABF.wem</Path>
 						</File>
 						<File Id="534834297" Language="SFX">
 							<ShortName>BAS_Crate_Destroy\BAS_Crate_Destroy_03.wav</ShortName>
-							<Path>SFX\BAS_Crate_Destroy\BAS_Crate_Destroy_03_C2D5F569.wem</Path>
+							<Path>SFX\BAS_Crate_Destroy\BAS_Crate_Destroy_03_8A7EA92A.wem</Path>
 						</File>
 						<File Id="542293744" Language="SFX">
 							<ShortName>BAS_Crate_Destroy\BAS_Crate_Destroy_06.wav</ShortName>
-							<Path>SFX\BAS_Crate_Destroy\BAS_Crate_Destroy_06_ACF53E42.wem</Path>
+							<Path>SFX\BAS_Crate_Destroy\BAS_Crate_Destroy_06_BBF475BD.wem</Path>
 						</File>
 						<File Id="914115818" Language="SFX">
 							<ShortName>BAS_Crate_Destroy\BAS_Crate_Destroy_04.wav</ShortName>
-							<Path>SFX\BAS_Crate_Destroy\BAS_Crate_Destroy_04_1E24EFD4.wem</Path>
+							<Path>SFX\BAS_Crate_Destroy\BAS_Crate_Destroy_04_869233A4.wem</Path>
 						</File>
 						<File Id="1008619621" Language="SFX">
 							<ShortName>BAS_Crate_Destroy\BAS_Crate_Destroy_04.wav</ShortName>
-							<Path>SFX\BAS_Crate_Destroy\BAS_Crate_Destroy_04_A80ADDBB.wem</Path>
+							<Path>SFX\BAS_Crate_Destroy\BAS_Crate_Destroy_04_30D162B0.wem</Path>
 						</File>
 						<File Id="1016820465" Language="SFX">
 							<ShortName>BAS_Crate_Destroy\BAS_Crate_Destroy_03.wav</ShortName>
-							<Path>SFX\BAS_Crate_Destroy\BAS_Crate_Destroy_03_6BFC3DF7.wem</Path>
+							<Path>SFX\BAS_Crate_Destroy\BAS_Crate_Destroy_03_0F1A56F8.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -1113,16 +1113,48 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="152105657" Language="SFX" Hash="1186727926">
+		<SoundBank Id="152105657" Language="SFX" Hash="2484859968">
 			<ObjectPath>\SoundBanks\Default Work Unit\General\TitleScreen</ObjectPath>
 			<ShortName>TitleScreen</ShortName>
 			<Path>TitleScreen.bnk</Path>
 			<IncludedEvents>
 				<Event Id="156563189" Name="UI_Button_Down" ObjectPath="\Events\Default Work Unit\sfx\UI\UI_Button_Down">
 					<IncludedMemoryFiles>
+						<File Id="221420178" Language="SFX">
+							<ShortName>BAS_Button_Open.wav</ShortName>
+							<Path>SFX\BAS_Button_Open_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="18309885" Name="UI_Button_Enter" ObjectPath="\Events\Default Work Unit\sfx\UI\UI_Button_Enter">
+					<IncludedMemoryFiles>
 						<File Id="520613417" Language="SFX">
 							<ShortName>BAS_Button_Enter.wav</ShortName>
 							<Path>SFX\BAS_Button_Enter_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2325560497" Name="UI_Button_Exit" ObjectPath="\Events\Default Work Unit\sfx\UI\UI_Button_Exit">
+					<IncludedMemoryFiles>
+						<File Id="110628757" Language="SFX">
+							<ShortName>BAS_Button_Over.wav</ShortName>
+							<Path>SFX\BAS_Button_Over_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="15662850" Name="UI_Button_Up" ObjectPath="\Events\Default Work Unit\sfx\UI\UI_Button_Up">
+					<IncludedMemoryFiles>
+						<File Id="110628757" Language="SFX">
+							<ShortName>BAS_Button_Over.wav</ShortName>
+							<Path>SFX\BAS_Button_Over_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="750089663" Name="UI_Menu_Teleport" ObjectPath="\Events\Default Work Unit\sfx\UI\UI_Menu_Teleport">
+					<IncludedMemoryFiles>
+						<File Id="747454916" Language="SFX">
+							<ShortName>BAS_Button_Teleport.wav</ShortName>
+							<Path>SFX\BAS_Button_Teleport_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -1142,10 +1174,20 @@
 				<GameParameter Id="2642438544" Name="MenuSlider_Music_Volume" ObjectPath="\Game Parameters\Default Work Unit\MenuSlider_Music_Volume"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1421251628" Language="SFX" Hash="80661246">
+		<SoundBank Id="1421251628" Language="SFX" Hash="2302834366">
 			<ObjectPath>\SoundBanks\Default Work Unit\Region\Woodlands</ObjectPath>
 			<ShortName>Woodlands</ShortName>
 			<Path>Woodlands.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2258053876" Name="Ambient_River" ObjectPath="\Events\Default Work Unit\sfx\3D_Emitters\Ambient_River">
+					<IncludedMemoryFiles>
+						<File Id="230465007" Language="SFX">
+							<ShortName>Ambient_Emitters\BAS_Water_River.wav</ShortName>
+							<Path>SFX\Ambient_Emitters\BAS_Water_River_786CC497.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
 		</SoundBank>
 		<SoundBank Id="1850388778" Language="SFX" Hash="3979632980">
 			<ObjectPath>\SoundBanks\Default Work Unit\Region\Desert</ObjectPath>

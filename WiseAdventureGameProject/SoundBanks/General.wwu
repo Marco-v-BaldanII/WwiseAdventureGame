@@ -26,7 +26,11 @@
 				</SoundBank>
 				<SoundBank Name="TitleScreen" ID="{F7BB7C01-48E1-48E5-BC4E-0693E62C6AAA}">
 					<ObjectInclusionList>
+						<ObjectRef Name="UI_Button_Enter" ID="{F0522E0B-4BD8-4163-920A-D27ED52A46AF}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Button_Exit" ID="{92FC4DF5-E88E-440E-B02B-C1007B5B7157}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UI_Button_Down" ID="{9EC0A051-3C36-446E-841C-334688151A46}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Button_Up" ID="{0581DBCE-0387-48AC-A244-D6F35627335B}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Menu_Teleport" ID="{B2359805-8777-49BB-8D87-1DAC5F49F97F}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

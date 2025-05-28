@@ -29,7 +29,9 @@
 					<GameSyncExclusionList/>
 				</SoundBank>
 				<SoundBank Name="Woodlands" ID="{C435717A-3605-4966-8C16-7E5BD9202610}">
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="Ambient_River" ID="{2CBD18F8-1423-402A-8057-9085694F41A1}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>

@@ -92,7 +92,67 @@
 										<Action Name="" ID="{A279A357-DC68-453B-A2BF-4F5D8161B64E}" ShortID="117835985">
 											<ReferenceList>
 												<Reference Name="Target">
+													<ObjectRef Name="BAS_Button_Open" ID="{3677F2AC-D5AC-489C-8014-ADBF50D1D990}" WorkUnitID="{AF0D20C8-2112-4F11-BD9E-0D6784296900}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="UI_Button_Up" ID="{0581DBCE-0387-48AC-A244-D6F35627335B}">
+									<ChildrenList>
+										<Action Name="" ID="{4EEFCD24-DCB5-4A3B-9AEB-8CE0CAEA5947}" ShortID="494409116">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="BAS_Button_Over" ID="{52B21619-7C01-470E-AAAD-D01F06369391}" WorkUnitID="{AF0D20C8-2112-4F11-BD9E-0D6784296900}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="UI_Button_Enter" ID="{F0522E0B-4BD8-4163-920A-D27ED52A46AF}">
+									<ChildrenList>
+										<Action Name="" ID="{FE1D8CA2-326F-4794-9877-6BBB7EF8AFE7}" ShortID="135379474">
+											<ReferenceList>
+												<Reference Name="Target">
 													<ObjectRef Name="BAS_Button_Enter" ID="{B11486BB-47FD-4346-A37B-4ED6B0916415}" WorkUnitID="{AF0D20C8-2112-4F11-BD9E-0D6784296900}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="UI_Button_Exit" ID="{92FC4DF5-E88E-440E-B02B-C1007B5B7157}">
+									<ChildrenList>
+										<Action Name="" ID="{2BDBD368-B94E-4F6D-92A1-19742DCFC3DA}" ShortID="522742755">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="BAS_Button_OverLow" ID="{BF17DC99-CD87-4F88-BF3C-640273921086}" WorkUnitID="{AF0D20C8-2112-4F11-BD9E-0D6784296900}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="UI_Menu_Teleport" ID="{B2359805-8777-49BB-8D87-1DAC5F49F97F}">
+									<ChildrenList>
+										<Action Name="" ID="{97990F7C-A55D-445F-9F33-067A23DA6E89}" ShortID="962673774">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="BAS_Button_Teleport" ID="{5D50D45E-AABF-4AE2-9B1D-00AFBC335EA6}" WorkUnitID="{AF0D20C8-2112-4F11-BD9E-0D6784296900}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="3D_Emitters" ID="{571D4D92-FCFB-4CE1-A4E3-72E3EF54E09F}" ShortID="689939975">
+							<ChildrenList>
+								<Event Name="Ambient_Crystal_Hum" ID="{9E400329-6ECD-49B7-AE18-1B05938AF2FE}"/>
+								<Event Name="Ambient_River" ID="{2CBD18F8-1423-402A-8057-9085694F41A1}">
+									<ChildrenList>
+										<Action Name="" ID="{6FEF257B-AC1B-43DF-9254-54DC78F25CB9}" ShortID="662755839">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="BAS_Water_River" ID="{216773FF-46D3-409D-8FA6-67457C48DA9D}" WorkUnitID="{AF0D20C8-2112-4F11-BD9E-0D6784296900}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
