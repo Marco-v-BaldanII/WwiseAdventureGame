@@ -175,7 +175,7 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="UI_QuestRoll_show" ID="{058014CD-27D9-4374-96A3-928FEA3679CF}">
+								<Event Name="UI_QuestRoll_Show" ID="{058014CD-27D9-4374-96A3-928FEA3679CF}">
 									<ChildrenList>
 										<Action Name="" ID="{CF5FE0BA-1AF0-4CE1-919C-9CAD28BEE8E5}" ShortID="895824010">
 											<ReferenceList>
@@ -214,6 +214,28 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="BAS_QuestRoll_Close" ID="{41AB9FBD-8D39-4D15-862F-F06EA777EE2C}" WorkUnitID="{AF0D20C8-2112-4F11-BD9E-0D6784296900}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="QuestComplete" ID="{4B4EADA3-27A2-4A3E-B3F7-687AEC46040B}">
+									<ChildrenList>
+										<Action Name="" ID="{50B1D104-8FA7-4187-BB88-442D5D878E02}" ShortID="484686994">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="dungeon_library" ID="{9FE112A8-B52C-4102-AD84-06FF27BCB169}" WorkUnitID="{AF0D20C8-2112-4F11-BD9E-0D6784296900}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="QuestCompleteCollection" ID="{87D3763C-1554-4950-AFE6-A7D5EA5B0AC1}">
+									<ChildrenList>
+										<Action Name="" ID="{E3C77314-3FFD-4607-A8DF-9D267891B646}" ShortID="306114809">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="dungeon_library" ID="{9FE112A8-B52C-4102-AD84-06FF27BCB169}" WorkUnitID="{AF0D20C8-2112-4F11-BD9E-0D6784296900}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>

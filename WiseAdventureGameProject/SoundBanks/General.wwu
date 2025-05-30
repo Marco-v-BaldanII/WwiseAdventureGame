@@ -38,14 +38,16 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="UI_Inventory_Close" ID="{AA8ABCFA-90A7-415F-A55E-38F54BA2F446}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UI_Button_Enter" ID="{F0522E0B-4BD8-4163-920A-D27ED52A46AF}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="UI_QuestRoll_show" ID="{058014CD-27D9-4374-96A3-928FEA3679CF}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_QuestRoll_Show" ID="{058014CD-27D9-4374-96A3-928FEA3679CF}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UI_Button_Exit" ID="{92FC4DF5-E88E-440E-B02B-C1007B5B7157}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UI_Button_Down" ID="{9EC0A051-3C36-446E-841C-334688151A46}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UI_QuestRoll_Close" ID="{9D4FBE7A-3940-4609-BE94-3E464C6B5225}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UI_Inventory_Roll" ID="{0DCDB42A-96F5-4775-9327-B09E4CC3FF2C}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UI_Button_Up" ID="{0581DBCE-0387-48AC-A244-D6F35627335B}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="QuestCompleteCollection" ID="{87D3763C-1554-4950-AFE6-A7D5EA5B0AC1}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UI_QuestRoll_Hide" ID="{DCE22747-0F53-495C-810C-DE767108866A}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UI_Menu_Teleport" ID="{B2359805-8777-49BB-8D87-1DAC5F49F97F}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="QuestComplete" ID="{4B4EADA3-27A2-4A3E-B3F7-687AEC46040B}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UI_QuestRoll_Open" ID="{5C2E7A85-5D86-4A96-8FBE-AD721C14A2B0}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UI_Inventory_Open" ID="{1A25E762-AC7C-4FD0-985E-9185AEA0AF05}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
