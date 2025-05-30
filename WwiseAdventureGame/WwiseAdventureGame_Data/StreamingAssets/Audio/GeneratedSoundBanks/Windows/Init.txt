@@ -35,10 +35,10 @@ Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 	4158999182	Dungeon_MezzanineRoom			\Default Work Unit\Master Audio Bus\Dungeon_MezzanineRoom	
 
 Effect plug-ins	ID	Name	Type				Notes
-	484890516	Church_Small_Wood	Wwise RoomVerb			
 	2513915904	Hall_Large	Wwise RoomVerb			
+	2648499661	Hall_Medium_Dark	Wwise RoomVerb			
 	2791153688	Hall_Small	Wwise RoomVerb			
-	2849147824	Medium	Wwise RoomVerb			
+	3451596814	Hall_Medium	Wwise RoomVerb			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			
