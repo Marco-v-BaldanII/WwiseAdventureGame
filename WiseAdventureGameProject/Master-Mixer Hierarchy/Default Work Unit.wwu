@@ -81,6 +81,51 @@
 							</ReferenceList>
 							<ObjectLists/>
 						</AuxBus>
+						<AuxBus Name="CaveEntrance" ID="{F93C2E8F-B0FA-436D-9F4E-DFCDBF59D522}">
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+									<ObjectRef Name="Hall_Small" ID="{D65B5F04-B83B-412C-9434-34A13A477E24}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+							</ReferenceList>
+							<ObjectLists/>
+						</AuxBus>
+						<AuxBus Name="Dungeon_Core" ID="{2B777B7C-5211-43C7-89A8-5F48E6D6FC92}">
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+									<ObjectRef Name="Medium" ID="{AEB3F175-958B-45F2-A4C2-3FBD4F456568}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+							</ReferenceList>
+							<ObjectLists/>
+						</AuxBus>
+						<AuxBus Name="Dungeon_Entrance" ID="{F78C9946-49DD-441D-93EF-0B9F4718BCA3}">
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+									<ObjectRef Name="Church_Small_Wood" ID="{940CCB47-F031-4C6A-B0E6-726CAC418C02}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+							</ReferenceList>
+							<ObjectLists/>
+						</AuxBus>
+						<AuxBus Name="Dungeon_Forge" ID="{53FD9A60-08C0-4F4D-81E6-9A76E1EB259D}">
+							<ObjectLists/>
+						</AuxBus>
+						<AuxBus Name="Dungeon_Library" ID="{F15FE276-2E07-461F-8B69-1041A8982A01}">
+							<ObjectLists/>
+						</AuxBus>
+						<AuxBus Name="Dungeon_Library_Statue" ID="{4DB98AF3-10C9-49E8-87A5-E92C782B9534}">
+							<ObjectLists/>
+						</AuxBus>
+						<AuxBus Name="Dungeon_MezzanineRoom" ID="{783FE7C1-9B08-4B85-8948-A55743433951}">
+							<ObjectLists/>
+						</AuxBus>
+						<AuxBus Name="Dungeon_MezzanineRoomEntrance" ID="{627ABD52-28D1-4FE6-9CA7-437CCA97E43D}">
+							<ObjectLists/>
+						</AuxBus>
+						<AuxBus Name="Dungeon_PathToForge" ID="{9FB92993-1200-4F00-9252-57A1F38C4159}">
+							<ObjectLists/>
+						</AuxBus>
+						<AuxBus Name="Dungeon_RoadToCore" ID="{6CCF000A-4C37-4B3D-A1F9-E2BE02D4CD8B}">
+							<ObjectLists/>
+						</AuxBus>
 					</ChildrenList>
 					<ObjectLists/>
 				</Bus>

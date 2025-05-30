@@ -2,19 +2,22 @@ Event	ID	Name			Wwise Object Path	Notes
 	15662850	UI_Button_Up			\Default Work Unit\sfx\UI\UI_Button_Up	
 	18309885	UI_Button_Enter			\Default Work Unit\sfx\UI\UI_Button_Enter	
 	156563189	UI_Button_Down			\Default Work Unit\sfx\UI\UI_Button_Down	
+	460807440	QuestCompleteCollection			\Default Work Unit\sfx\UI\QuestCompleteCollection	
 	750089663	UI_Menu_Teleport			\Default Work Unit\sfx\UI\UI_Menu_Teleport	
 	808893336	UI_QuestRoll_Close			\Default Work Unit\sfx\UI\UI_QuestRoll_Close	
 	949395292	UI_QuestRoll_Open			\Default Work Unit\sfx\UI\UI_QuestRoll_Open	
+	2092967876	QuestComplete			\Default Work Unit\sfx\UI\QuestComplete	
 	2199611969	UI_Inventory_Open			\Default Work Unit\sfx\UI\UI_Inventory_Open	
 	2278290679	UI_Inventory_Close			\Default Work Unit\sfx\UI\UI_Inventory_Close	
 	2325560497	UI_Button_Exit			\Default Work Unit\sfx\UI\UI_Button_Exit	
 	2792117052	UI_QuestRoll_Hide			\Default Work Unit\sfx\UI\UI_QuestRoll_Hide	
-	3699139167	UI_QuestRoll_show			\Default Work Unit\sfx\UI\UI_QuestRoll_show	
+	3699139167	UI_QuestRoll_Show			\Default Work Unit\sfx\UI\UI_QuestRoll_Show	
 	3749307760	UI_Inventory_Roll			\Default Work Unit\sfx\UI\UI_Inventory_Roll	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	110628757	BAS_Button_OverLow	C:\Users\marco\OneDrive\Documentos\GitHub\WwiseAdventureGame\WiseAdventureGameProject\.cache\Windows\SFX\BAS_Button_Over_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BAS_Button_OverLow		21240
+	110628757	BAS_Button_Over	C:\Users\marco\OneDrive\Documentos\GitHub\WwiseAdventureGame\WiseAdventureGameProject\.cache\Windows\SFX\BAS_Button_Over_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BAS_Button_Over		21240
 	221420178	BAS_Button_Open	C:\Users\marco\OneDrive\Documentos\GitHub\WwiseAdventureGame\WiseAdventureGameProject\.cache\Windows\SFX\BAS_Button_Open_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BAS_Button_Open		56256
+	402930154	dungeon_library	C:\Users\marco\OneDrive\Documentos\GitHub\WwiseAdventureGame\WiseAdventureGameProject\.cache\Windows\SFX\dungeon_library_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Auxiliary\dungeon_library		230824
 	520613417	BAS_Button_Enter	C:\Users\marco\OneDrive\Documentos\GitHub\WwiseAdventureGame\WiseAdventureGameProject\.cache\Windows\SFX\BAS_Button_Enter_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BAS_Button_Enter		117424
 	643510546	BAS_QuestRoll_Open	C:\Users\marco\OneDrive\Documentos\GitHub\WwiseAdventureGame\WiseAdventureGameProject\.cache\Windows\SFX\UI\BAS_QuestRoll_Open_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BAS_QuestRoll_Open		104478
 	645060803	BAS_Inventory_Close	C:\Users\marco\OneDrive\Documentos\GitHub\WwiseAdventureGame\WiseAdventureGameProject\.cache\Windows\SFX\UI\BAS_Inventory_Close_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BAS_Inventory_Close		46624

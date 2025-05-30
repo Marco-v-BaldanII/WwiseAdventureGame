@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="133642231" Language="SFX" Hash="3391955047">
+		<SoundBank Id="133642231" Language="SFX" Hash="3213895020">
 			<ObjectPath>\SoundBanks\Default Work Unit\General\General</ObjectPath>
 			<ShortName>General</ShortName>
 			<Path>General.bnk</Path>
@@ -67,6 +67,9 @@
 							<Path>SFX\BAS_Crate_Destroy\BAS_Crate_Destroy_03_0F1A56F8.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="4122393694" Name="Cave" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Cave"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="2213850905" Name="Dungeon_Core" ObjectPath="\Events\Default Work Unit\auxiliary\Dungeon_Core">
 					<IncludedMemoryFiles>
@@ -254,6 +257,9 @@
 							</Media>
 						</SwitchContainer>
 					</SwitchContainers>
+					<AuxBusSends>
+						<AuxBus Id="4122393694" Name="Cave" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Cave"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="2453392179" Name="Player_Footstep" ObjectPath="\Events\Default Work Unit\sfx\Player_Footstep">
 					<IncludedMemoryFiles>
@@ -782,6 +788,9 @@
 							<Path>SFX\Heartbeat\Lub\Heartbeat_Lub2_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="4122393694" Name="Cave" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Cave"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="3842195348" Name="Player_Hurt_Vox" ObjectPath="\Events\Default Work Unit\sfx\Player_Hurt_Vox">
 					<IncludedMemoryFiles>
@@ -830,6 +839,9 @@
 							<Path>SFX\Hurt\Adventuress_damaged_03_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="4122393694" Name="Cave" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Cave"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="3695342915" Name="Player_WeaponImpact" ObjectPath="\Events\Default Work Unit\sfx\Player_WeaponImpact">
 					<IncludedMemoryFiles>
@@ -1223,11 +1235,33 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="152105657" Language="SFX" Hash="3943313136">
+		<SoundBank Id="152105657" Language="SFX" Hash="3878606728">
 			<ObjectPath>\SoundBanks\Default Work Unit\General\TitleScreen</ObjectPath>
 			<ShortName>TitleScreen</ShortName>
 			<Path>TitleScreen.bnk</Path>
 			<IncludedEvents>
+				<Event Id="2092967876" Name="QuestComplete" ObjectPath="\Events\Default Work Unit\sfx\UI\QuestComplete">
+					<IncludedMemoryFiles>
+						<File Id="402930154" Language="SFX">
+							<ShortName>dungeon_library.wav</ShortName>
+							<Path>SFX\dungeon_library_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="4122393694" Name="Cave" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Cave"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="460807440" Name="QuestCompleteCollection" ObjectPath="\Events\Default Work Unit\sfx\UI\QuestCompleteCollection">
+					<IncludedMemoryFiles>
+						<File Id="402930154" Language="SFX">
+							<ShortName>dungeon_library.wav</ShortName>
+							<Path>SFX\dungeon_library_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="4122393694" Name="Cave" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Cave"/>
+					</AuxBusSends>
+				</Event>
 				<Event Id="156563189" Name="UI_Button_Down" ObjectPath="\Events\Default Work Unit\sfx\UI\UI_Button_Down">
 					<IncludedMemoryFiles>
 						<File Id="221420178" Language="SFX">
@@ -1316,7 +1350,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3699139167" Name="UI_QuestRoll_show" ObjectPath="\Events\Default Work Unit\sfx\UI\UI_QuestRoll_show">
+				<Event Id="3699139167" Name="UI_QuestRoll_Show" ObjectPath="\Events\Default Work Unit\sfx\UI\UI_QuestRoll_Show">
 					<IncludedMemoryFiles>
 						<File Id="643510546" Language="SFX">
 							<ShortName>UI\BAS_QuestRoll_Open.wav</ShortName>
@@ -1326,7 +1360,7 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="608898761" Language="SFX" Hash="2400081343">
+		<SoundBank Id="608898761" Language="SFX" Hash="1875102285">
 			<ObjectPath>\SoundBanks\Default Work Unit\Region\Dungeon</ObjectPath>
 			<ShortName>Dungeon</ShortName>
 			<Path>Dungeon.bnk</Path>
@@ -1338,6 +1372,9 @@
 							<Path>SFX\BAS_amb_dungeon_day_background_loop_01_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="4122393694" Name="Cave" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Cave"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="1999886838" Name="Destruction_Rock_Destroy" ObjectPath="\Events\Default Work Unit\sfx\3D_Emitters\Dungeon\Destruction_Rock_Destroy">
 					<IncludedMemoryFiles>
@@ -1346,22 +1383,35 @@
 							<Path>SFX\BAS_Destroy_Rock_01_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="4122393694" Name="Cave" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Cave"/>
+					</AuxBusSends>
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="3523052047">
+		<SoundBank Id="1355168291" Language="SFX" Hash="441066498">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<IncludedAuxBusses>
+				<AuxBus Id="243931001" Name="Dungeon_Forge" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Dungeon_Forge"/>
+				<AuxBus Id="425911480" Name="Dungeon_Library_Statue" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Dungeon_Library_Statue"/>
+				<AuxBus Id="567469275" Name="Dungeon_PathToForge" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Dungeon_PathToForge"/>
+				<AuxBus Id="1156828694" Name="Dungeon_Entrance" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Dungeon_Entrance"/>
+				<AuxBus Id="1941785149" Name="Dungeon_Library" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Dungeon_Library"/>
+				<AuxBus Id="2026127448" Name="Dungeon_MezzanineRoomEntrance" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Dungeon_MezzanineRoomEntrance"/>
+				<AuxBus Id="2106540524" Name="Dungeon_RoadToCore" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Dungeon_RoadToCore"/>
+				<AuxBus Id="2213850905" Name="Dungeon_Core" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Dungeon_Core"/>
+				<AuxBus Id="3352684520" Name="CaveEntrance" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\CaveEntrance"/>
 				<AuxBus Id="4122393694" Name="Cave" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Cave"/>
+				<AuxBus Id="4158999182" Name="Dungeon_MezzanineRoom" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Dungeon_MezzanineRoom"/>
 			</IncludedAuxBusses>
 			<GameParameters>
 				<GameParameter Id="1333239961" Name="MenuSlider_Master_Volume" ObjectPath="\Game Parameters\Default Work Unit\MenuSlider_Master_Volume"/>
 				<GameParameter Id="2642438544" Name="MenuSlider_Music_Volume" ObjectPath="\Game Parameters\Default Work Unit\MenuSlider_Music_Volume"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1421251628" Language="SFX" Hash="274514667">
+		<SoundBank Id="1421251628" Language="SFX" Hash="4005256524">
 			<ObjectPath>\SoundBanks\Default Work Unit\Region\Woodlands</ObjectPath>
 			<ShortName>Woodlands</ShortName>
 			<Path>Woodlands.bnk</Path>
@@ -1373,6 +1423,9 @@
 							<Path>SFX\Ambient_Emitters\BAS_ForestBirds_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="4122393694" Name="Cave" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Cave"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="1934835592" Name="Ambient_Waterfall" ObjectPath="\Events\Default Work Unit\sfx\3D_Emitters\Woodlands\Ambient_Waterfall">
 					<IncludedMemoryFiles>
@@ -1381,10 +1434,13 @@
 							<Path>SFX\Ambient_Emitters\BAS_Waterfall_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="4122393694" Name="Cave" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Cave"/>
+					</AuxBusSends>
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="1850388778" Language="SFX" Hash="2214096186">
+		<SoundBank Id="1850388778" Language="SFX" Hash="768388712">
 			<ObjectPath>\SoundBanks\Default Work Unit\Region\Desert</ObjectPath>
 			<ShortName>Desert</ShortName>
 			<Path>Desert.bnk</Path>
@@ -1400,6 +1456,9 @@
 							<Path>SFX\BAS_amb_desert_day_background_loop_01_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="4122393694" Name="Cave" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Cave"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="2541270269" Name="Destruction_VolcanicBoulder_Impact" ObjectPath="\Events\Default Work Unit\sfx\3D_Emitters\Desert\Destruction_VolcanicBoulder_Impact">
 					<IncludedMemoryFiles>
@@ -1408,6 +1467,9 @@
 							<Path>SFX\Volcanic Boulder\Explosion_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="4122393694" Name="Cave" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Cave"/>
+					</AuxBusSends>
 				</Event>
 			</IncludedEvents>
 			<GameParameters>
@@ -1459,7 +1521,7 @@
 			<ShortName>Quest_08</ShortName>
 			<Path>Quest_08.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="2482365692" Language="SFX" Hash="3418191861">
+		<SoundBank Id="2482365692" Language="SFX" Hash="1615385745">
 			<ObjectPath>\SoundBanks\Default Work Unit\Region\PineForest</ObjectPath>
 			<ShortName>PineForest</ShortName>
 			<Path>PineForest.bnk</Path>
@@ -1475,13 +1537,16 @@
 							<Path>SFX\BAS_amb_forest_day_background_loop_01_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="4122393694" Name="Cave" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Cave"/>
+					</AuxBusSends>
 				</Event>
 			</IncludedEvents>
 			<GameParameters>
 				<GameParameter Id="207908541" Name="Time_of_Day" ObjectPath="\Game Parameters\Default Work Unit\Time_of_Day"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3945572659" Language="SFX" Hash="1228815520">
+		<SoundBank Id="3945572659" Language="SFX" Hash="3683812343">
 			<ObjectPath>\SoundBanks\Default Work Unit\Region\Village</ObjectPath>
 			<ShortName>Village</ShortName>
 			<Path>Village.bnk</Path>
@@ -1497,6 +1562,9 @@
 							<Path>SFX\BAS_amb_village_night_background_loop_01_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="4122393694" Name="Cave" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Cave"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="2258053876" Name="Ambient_River" ObjectPath="\Events\Default Work Unit\sfx\3D_Emitters\Village\Ambient_River">
 					<IncludedMemoryFiles>
@@ -1505,6 +1573,9 @@
 							<Path>SFX\Ambient_Emitters\BAS_Water_River_E5095378.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="4122393694" Name="Cave" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Cave"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="2208964750" Name="Ambient_Windmill" ObjectPath="\Events\Default Work Unit\sfx\3D_Emitters\Village\Ambient_Windmill">
 					<IncludedMemoryFiles>
@@ -1513,13 +1584,16 @@
 							<Path>SFX\Ambient_Emitters\BAS_WindMillBlade_02_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="4122393694" Name="Cave" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Cave"/>
+					</AuxBusSends>
 				</Event>
 			</IncludedEvents>
 			<GameParameters>
 				<GameParameter Id="207908541" Name="Time_of_Day" ObjectPath="\Game Parameters\Default Work Unit\Time_of_Day"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="4122393694" Language="SFX" Hash="2646246627">
+		<SoundBank Id="4122393694" Language="SFX" Hash="3146736356">
 			<ObjectPath>\SoundBanks\Default Work Unit\Region\Cave</ObjectPath>
 			<ShortName>Cave</ShortName>
 			<Path>Cave.bnk</Path>
@@ -1531,6 +1605,9 @@
 							<Path>SFX\BAS_amb_cave_background_LP_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="4122393694" Name="Cave" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Cave"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="2644063196" Name="Ambient_WaterDrop" ObjectPath="\Events\Default Work Unit\sfx\3D_Emitters\Cave\Ambient_WaterDrop">
 					<IncludedMemoryFiles>
@@ -1559,6 +1636,9 @@
 							<Path>SFX\Ambient_Emitters\BAS_WaterDrops_02_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="4122393694" Name="Cave" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Cave"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="448719855" Name="Destruction_Crystal_Destroy" ObjectPath="\Events\Default Work Unit\sfx\3D_Emitters\Cave\Destruction_Crystal_Destroy">
 					<IncludedMemoryFiles>
@@ -1567,6 +1647,9 @@
 							<Path>SFX\BAS_Crystals_Destroy_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="4122393694" Name="Cave" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Cave"/>
+					</AuxBusSends>
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
