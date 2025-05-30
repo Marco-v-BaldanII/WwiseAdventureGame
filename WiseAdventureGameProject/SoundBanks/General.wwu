@@ -11,9 +11,12 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="Dungeon_Library" ID="{E9161142-2F33-4035-9583-7F888B99F209}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Dungeon_Forge" ID="{43540520-56D0-4037-8033-7226ECFBDEB7}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music_ArcadeMachine_Play" ID="{3915388E-296C-405D-B2B2-587A0D777AE6}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Player_Health" ID="{AB03778A-7C7E-435B-A3F6-D22A5D5A6C0F}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Player_Hurt_Vox" ID="{74E5F53B-FAB0-459C-9A18-01B14CAB4882}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Door_DLCdoor_Open_Play" ID="{DB806695-2044-45E4-85F3-046775D957C2}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Dungeon_Library_Statue" ID="{A67F1C41-AB02-46E7-824E-B450BFDCDE94}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Door_DLCdoor_Open_Stop" ID="{98E0536E-3348-492C-94FE-24555FB70B0B}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Player_Footstep" ID="{C286D273-0108-49B3-8390-4C578FF7EF8E}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Destruction_Container" ID="{EEF16D41-B7E5-4ABB-B059-B1A831AE1BBE}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Music_Region" ID="{35BB49B2-E953-4B3E-B576-BD8CF5058F52}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>

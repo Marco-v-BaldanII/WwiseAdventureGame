@@ -434,6 +434,47 @@
 										</Event>
 									</ChildrenList>
 								</Folder>
+								<Folder Name="Arcade" ID="{9A4C9716-C689-4BB7-8448-7A89A2DACA34}" ShortID="315332569">
+									<ChildrenList>
+										<Event Name="Music_ArcadeMachine_Play" ID="{3915388E-296C-405D-B2B2-587A0D777AE6}">
+											<ChildrenList>
+												<Action Name="" ID="{44A2552B-9441-4CFE-BC35-A5C6A01EC6CF}" ShortID="489360511">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Praetor-Amalthus-The-Acting-God-Xenoblade-Chronicles-2-OST-_088_" ID="{F7E6D79A-F211-45BC-B474-18729FE36911}" WorkUnitID="{AF0D20C8-2112-4F11-BD9E-0D6784296900}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="DLC" ID="{D44AE33C-3A97-4D37-A82B-F0B36B521E26}" ShortID="301512864">
+									<ChildrenList>
+										<Event Name="Door_DLCdoor_Open_Play" ID="{DB806695-2044-45E4-85F3-046775D957C2}">
+											<ChildrenList>
+												<Action Name="" ID="{FB3159A2-10EC-4AAD-8C38-8334C3382CC2}" ShortID="177391249">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="BAS_DLC_ActivateKey_Success" ID="{59732AE5-B64A-4690-9D7E-615DDA4F494E}" WorkUnitID="{AF0D20C8-2112-4F11-BD9E-0D6784296900}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Door_DLCdoor_Open_Stop" ID="{98E0536E-3348-492C-94FE-24555FB70B0B}">
+											<ChildrenList>
+												<Action Name="" ID="{4CA3FF9A-F2EC-4F9B-A741-4E6F3CB09C83}" ShortID="868450087">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="BAS_DLC_ActivateKey_Fail" ID="{68FEA932-B9BF-41BC-9E2D-2DC6C32EB17F}" WorkUnitID="{AF0D20C8-2112-4F11-BD9E-0D6784296900}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>

@@ -6959,6 +6959,86 @@
 								</Sound>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="Arcade" ID="{CCBF07B1-C996-4999-AB63-ECBD1BD59E33}" ShortID="374347967">
+							<ChildrenList>
+								<Sound Name="Praetor-Amalthus-The-Acting-God-Xenoblade-Chronicles-2-OST-_088_" ID="{F7E6D79A-F211-45BC-B474-18729FE36911}" ShortID="1006970510">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0553CE12-6F1D-4F8B-99B3-381D30F298BC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D6AF423-2987-4F26-8C03-9353801E74B9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Praetor-Amalthus-The-Acting-God-Xenoblade-Chronicles-2-OST-_088_" ID="{5125DB86-4390-45FD-8849-62CBDACBDF34}">
+											<Language>SFX</Language>
+											<AudioFile>Praetor-Amalthus-The-Acting-God-Xenoblade-Chronicles-2-OST-_088_.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="339790243"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Praetor-Amalthus-The-Acting-God-Xenoblade-Chronicles-2-OST-_088_" ID="{5125DB86-4390-45FD-8849-62CBDACBDF34}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="DLC" ID="{4F94CD74-381E-49F5-8AAB-9FC11713508A}" ShortID="1001765290">
+							<ChildrenList>
+								<Sound Name="BAS_DLC_ActivateKey_Fail" ID="{68FEA932-B9BF-41BC-9E2D-2DC6C32EB17F}" ShortID="827532367">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0553CE12-6F1D-4F8B-99B3-381D30F298BC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D6AF423-2987-4F26-8C03-9353801E74B9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_DLC_ActivateKey_Fail" ID="{C966B0DB-36A5-4DC8-9B7C-6BFE94FF3A12}">
+											<Language>SFX</Language>
+											<AudioFile>BAS_DLC_ActivateKey_Fail.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="907398262"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_DLC_ActivateKey_Fail" ID="{C966B0DB-36A5-4DC8-9B7C-6BFE94FF3A12}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BAS_DLC_ActivateKey_Success" ID="{59732AE5-B64A-4690-9D7E-615DDA4F494E}" ShortID="253708171">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0553CE12-6F1D-4F8B-99B3-381D30F298BC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D6AF423-2987-4F26-8C03-9353801E74B9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_DLC_ActivateKey_Success" ID="{508712AC-ED50-404C-BF03-F7D9C8991151}">
+											<Language>SFX</Language>
+											<AudioFile>BAS_DLC_ActivateKey_Success.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="442080444"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_DLC_ActivateKey_Success" ID="{508712AC-ED50-404C-BF03-F7D9C8991151}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Music" ID="{D4DAF711-C620-40E2-92DB-51D52B6C3D52}" ShortID="895285608">
