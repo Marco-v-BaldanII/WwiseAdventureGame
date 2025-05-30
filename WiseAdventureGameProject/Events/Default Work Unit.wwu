@@ -241,6 +241,39 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="UI_Menu_Pause" ID="{DD146401-DC69-4435-B739-86CBA8571240}">
+									<ChildrenList>
+										<Action Name="" ID="{2B6C0A63-A518-4CDB-8ADC-7C4A223CE041}" ShortID="907326662">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="BAS_Inventory_Open" ID="{79AAA7D9-EA4B-4BA5-B551-1D8114A89B18}" WorkUnitID="{AF0D20C8-2112-4F11-BD9E-0D6784296900}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="UI_Menu_Resume" ID="{33C30BCF-FC7F-425A-8994-192985C57C24}">
+									<ChildrenList>
+										<Action Name="" ID="{9DC402AB-5C87-4121-940D-F08958443239}" ShortID="150400924">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="BAS_Inventory_Close" ID="{EA847B38-32FC-420F-AF16-A5B2B3B786ED}" WorkUnitID="{AF0D20C8-2112-4F11-BD9E-0D6784296900}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="UI_Menu_Select" ID="{3921B21B-6513-45B0-BB86-772E2255E958}">
+									<ChildrenList>
+										<Action Name="" ID="{DFAF8D5F-31C4-4DDF-ABFC-46BD9B2B3FAA}" ShortID="90745207">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="BAS_Button_Open" ID="{3677F2AC-D5AC-489C-8014-ADBF50D1D990}" WorkUnitID="{AF0D20C8-2112-4F11-BD9E-0D6784296900}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="3D_Emitters" ID="{571D4D92-FCFB-4CE1-A4E3-72E3EF54E09F}" ShortID="689939975">
@@ -439,6 +472,17 @@
 										<Event Name="Music_ArcadeMachine_Play" ID="{3915388E-296C-405D-B2B2-587A0D777AE6}">
 											<ChildrenList>
 												<Action Name="" ID="{44A2552B-9441-4CFE-BC35-A5C6A01EC6CF}" ShortID="489360511">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Praetor-Amalthus-The-Acting-God-Xenoblade-Chronicles-2-OST-_088_" ID="{F7E6D79A-F211-45BC-B474-18729FE36911}" WorkUnitID="{AF0D20C8-2112-4F11-BD9E-0D6784296900}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Music_ArcadeMachine_Stop" ID="{9F248062-2591-4E7B-BEDD-0F8D2974F1AC}">
+											<ChildrenList>
+												<Action Name="" ID="{BED8FCD6-4B55-4CCA-A48F-02251BE44463}" ShortID="577164698">
 													<ReferenceList>
 														<Reference Name="Target">
 															<ObjectRef Name="Praetor-Amalthus-The-Acting-God-Xenoblade-Chronicles-2-OST-_088_" ID="{F7E6D79A-F211-45BC-B474-18729FE36911}" WorkUnitID="{AF0D20C8-2112-4F11-BD9E-0D6784296900}"/>

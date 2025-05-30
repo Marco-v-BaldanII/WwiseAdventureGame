@@ -6992,6 +6992,9 @@
 						<Folder Name="DLC" ID="{4F94CD74-381E-49F5-8AAB-9FC11713508A}" ShortID="1001765290">
 							<ChildrenList>
 								<Sound Name="BAS_DLC_ActivateKey_Fail" ID="{68FEA932-B9BF-41BC-9E2D-2DC6C32EB17F}" ShortID="827532367">
+									<PropertyList>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0553CE12-6F1D-4F8B-99B3-381D30F298BC}"/>
@@ -7015,6 +7018,9 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="BAS_DLC_ActivateKey_Success" ID="{59732AE5-B64A-4690-9D7E-615DDA4F494E}" ShortID="253708171">
+									<PropertyList>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0553CE12-6F1D-4F8B-99B3-381D30F298BC}"/>
@@ -7076,7 +7082,7 @@
 						</Sound>
 					</ChildrenList>
 				</Folder>
-				<Folder Name="Auxiliary" ID="{2F0FD372-CAD3-4AEA-8942-BC790577001B}" ShortID="974797325">
+				<Folder Name="extra" ID="{2F0FD372-CAD3-4AEA-8942-BC790577001B}" ShortID="974797325">
 					<ChildrenList>
 						<Sound Name="Dungeon_PathToForge" ID="{5F6AB717-BB23-42E2-A0E4-FAA96C96BA41}" ShortID="424635768">
 							<ReferenceList>

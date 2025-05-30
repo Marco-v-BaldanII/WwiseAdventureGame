@@ -41,9 +41,12 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="UI_Inventory_Close" ID="{AA8ABCFA-90A7-415F-A55E-38F54BA2F446}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UI_Button_Enter" ID="{F0522E0B-4BD8-4163-920A-D27ED52A46AF}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Menu_Resume" ID="{33C30BCF-FC7F-425A-8994-192985C57C24}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UI_QuestRoll_Show" ID="{058014CD-27D9-4374-96A3-928FEA3679CF}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UI_Button_Exit" ID="{92FC4DF5-E88E-440E-B02B-C1007B5B7157}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Menu_Pause" ID="{DD146401-DC69-4435-B739-86CBA8571240}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UI_Button_Down" ID="{9EC0A051-3C36-446E-841C-334688151A46}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Menu_Select" ID="{3921B21B-6513-45B0-BB86-772E2255E958}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UI_QuestRoll_Close" ID="{9D4FBE7A-3940-4609-BE94-3E464C6B5225}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UI_Inventory_Roll" ID="{0DCDB42A-96F5-4775-9327-B09E4CC3FF2C}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UI_Button_Up" ID="{0581DBCE-0387-48AC-A244-D6F35627335B}" WorkUnitID="{51B8C174-839E-472D-AC55-571ED2A6EBE1}" Origin="Manual" Filter="7"/>
